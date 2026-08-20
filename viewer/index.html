@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>英文法ナレッジグラフ</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">ENGLISH GRAMMAR PRINCIPLES</p>
+        <h1>英文法ナレッジグラフ</h1>
+        <p id="loadStatus" class="load-status" role="status">graph.jsonを読み込んでいます。</p>
+      </div>
+      <a class="source-link" href="../README.md">原則集README</a>
+    </header>
+
+    <main>
+      <section class="controls" aria-labelledby="controls-title">
+        <div class="panel-heading compact-heading">
+          <h2 id="controls-title">表示を絞る</h2>
+          <button id="fitButton" class="secondary-button" type="button">表示を整える</button>
+        </div>
+        <div class="control-grid">
+          <label>
+            検索
+            <input id="searchInput" type="search" placeholder="タイトル・原則・ID" autocomplete="off">
+          </label>
+          <label>
+            分野
+            <select id="domainFilter"></select>
+          </label>
+          <label>
+            カード状態
+            <select id="statusFilter"></select>
+          </label>
+          <label>
+            検証状態
+            <select id="verificationFilter"></select>
+          </label>
+          <label>
+            関係種別
+            <select id="typeFilter"></select>
+          </label>
+          <label>
+            フォーカス
+            <select id="focusFilter">
+              <option value="0">全体</option>
+              <option value="1">選択ノードから1段階</option>
+              <option value="2">選択ノードから2段階</option>
+            </select>
+          </label>
+        </div>
+        <div class="legend" aria-label="表示凡例">
+          <span><i class="legend-line approved-line"></i>approved 確認済み</span>
+          <span><i class="legend-line proposed-line"></i>proposed 候補</span>
+          <span><i class="legend-arrow"></i>矢印は向きを示す</span>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="ナレッジグラフ">
+        <aside class="panel list-panel" aria-labelledby="list-title">
+          <div class="panel-heading">
+            <h2 id="list-title">原則一覧</h2>
+            <span id="visibleCount" class="count-label"></span>
+          </div>
+          <div id="nodeList" class="node-list" role="listbox" aria-label="原則カード"></div>
+          <p id="listEmpty" class="empty-state" hidden>条件に一致するカードがありません。</p>
+        </aside>
+
+        <section class="panel graph-panel" aria-labelledby="graph-title">
+          <div class="panel-heading">
+            <div>
+              <h2 id="graph-title">関係図</h2>
+              <p id="graphHint" class="panel-note">ノードを選ぶと詳細を表示します。</p>
+            </div>
+          </div>
+          <div id="graphRegion" class="graph-region">
+            <svg id="graph" role="application" aria-label="英文法原則の関係図" viewBox="0 0 1200 720">
+              <defs>
+                <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+                  <path d="M0,0 L8,4 L0,8 Z" fill="currentColor"></path>
+                </marker>
+              </defs>
+              <g id="viewport">
+                <g id="edgeLayer"></g>
+                <g id="nodeLayer"></g>
+              </g>
+            </svg>
+            <p id="graphEmpty" class="graph-empty" hidden>表示できる関係がありません。</p>
+          </div>
+        </section>
+
+        <aside class="panel detail-panel" aria-labelledby="detail-title">
+          <div id="detailEmpty" class="detail-empty">
+            <p class="eyebrow">CARD DETAIL</p>
+            <h2 id="detail-title">原則を選択</h2>
+            <p>一覧または関係図のノードを選ぶと、原則・判断条件・例・関係の根拠を確認できます。</p>
+          </div>
+          <article id="detail" hidden>
+            <p id="detailDomain" class="eyebrow"></p>
+            <h2 id="detailTitle"></h2>
+            <p id="detailId" class="detail-id"></p>
+            <div id="detailBadges" class="badges"></div>
+            <p id="detailScope" class="detail-scope"></p>
+
+            <section>
+              <h3>原則</h3>
+              <div id="detailPrinciple" class="rich-text"></div>
+            </section>
+            <section>
+              <h3>判断条件</h3>
+              <ul id="detailJudgment" class="detail-list"></ul>
+            </section>
+            <section>
+              <h3>例</h3>
+              <ul id="detailExamples" class="detail-list"></ul>
+            </section>
+            <section>
+              <h3>関連と根拠</h3>
+              <div id="detailRelations" class="relation-list"></div>
+            </section>
+            <a id="detailSource" class="source-link detail-source" href="#">カード本文を開く</a>
+          </article>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>

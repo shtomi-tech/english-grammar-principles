@@ -1,0 +1,3458 @@
+{
+  "schemaVersion": 1,
+  "source": "principles/**/*.md",
+  "nodes": [
+    {
+      "id": "egp.agreement.be-present-past",
+      "title": "be動詞の現在形と過去形",
+      "domain": "agreement",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/agreement/be-present-past.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "### 現在形\n\n- 1人称・単数が主語なら `am`。\n- 3人称・単数が主語なら `is`。\n- それ以外なら `are`。\n\n### 過去形\n\n- 1人称・単数が主語なら `was`。\n- 2人称・単数が主語なら `were`。\n- 3人称・単数が主語なら `was`。\n- 人称にかかわらず、複数が主語なら `were`。",
+        "judgmentConditions": [],
+        "examples": [
+          "| 主語 | 現在形 | 過去形 |",
+          "|---|---|---|",
+          "| `I` | `am` | `was` |",
+          "| `you` | `are` | `were` |",
+          "| `he / she / it` | `is` | `was` |",
+          "| `we / they` | `are` | `were` |"
+        ]
+      }
+    },
+    {
+      "id": "egp.agreement.one-of-the-plural",
+      "title": "one of the + 複数名詞の一致",
+      "domain": "agreement",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/agreement/one-of-the-plural.md",
+      "scope": "高校英文法・one of the + 複数名詞を主語とする文の動詞",
+      "summary": {
+        "principle": "`one of the + 複数名詞`が主語のとき、文全体の主語は`one`(単数)であるため、述語動詞は単数形にする。`of the + 複数名詞`は`one`を修飾する前置詞句であり、動詞の一致には影響しない。",
+        "judgmentConditions": [
+          "主語の核(head)が`one`であることを確認し、`of`の後ろの複数名詞につられて複数の動詞形にしていないかを確認する。"
+        ],
+        "examples": [
+          "- 正例: `One of the students is absent today.`",
+          "- 対比例: `One of the students who are absent today is Tom.`(関係代名詞節内はare、主節はis)"
+        ]
+      }
+    },
+    {
+      "id": "egp.agreement.subject-head",
+      "title": "複雑な主語の一致",
+      "domain": "agreement",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/agreement/subject-head.md",
+      "scope": "高校英文法・数量表現とeither A or Bの主語",
+      "summary": {
+        "principle": "動詞の数は、主語句の中心と構文ごとの一致規則で決める。`each/every`や`the number of`は単数、`a number of + 複数名詞`は複数、`either A or B`は基本的に動詞に近い主語に合わせる。",
+        "judgmentConditions": [
+          "主語句の中心語と、数量表現・相関接続の型を確認する。"
+        ],
+        "examples": [
+          "- `Each of the answers is useful.`",
+          "- `Either my parents or my brother is coming.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.agreement.third-person-singular-present-s",
+      "title": "3人称・単数・現在の s",
+      "domain": "agreement",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/agreement/third-person-singular-present-s.md",
+      "scope": "初学者向け一般動詞",
+      "summary": {
+        "principle": "3人称・単数の主語があると、一般動詞の現在形は、原則として原形の語尾に `s` が付いた形になる。",
+        "judgmentConditions": [],
+        "examples": [
+          "- `He plays tennis.`",
+          "- `The dog runs fast.`",
+          "- `They play tennis.`",
+          "- `Does he play tennis?`: `does` の後ろは原形。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.adverb-clause-subject-be-omission",
+      "title": "副詞節内の主語と be動詞の省略",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/adverb-clause-subject-be-omission.md",
+      "scope": "初学者向け・従属接続詞が導く副詞節",
+      "summary": {
+        "principle": "従属接続詞が導く副詞節では、次の2条件を満たす場合に、副詞節内の主語と `be` 動詞をまとめて省略できる。\n\n1. 副詞節内の主語が主節の主語と同じである。\n2. 副詞節内の動詞が `be` 動詞である。",
+        "judgmentConditions": [
+          "従属接続詞が導く節が、副詞節として主節を説明しているか確認する。",
+          "副詞節内の主語と主節の主語が同じか確認する。",
+          "副詞節内の動詞が `be` 動詞か確認する。",
+          "2条件がそろった場合だけ、主語と `be` 動詞を同時に省略する。"
+        ],
+        "examples": [
+          "- `When she was young, she lived in Kyoto.` → `When (she was) young, she lived in Kyoto.`",
+          "- `While I was in Tokyo, I visited museums.` → `While (I was) in Tokyo, I visited museums.`",
+          "- `When the weather is fine, we walk.`: 副詞節内の主語 `the weather` と主節の主語 `we` が異なるため、この条件では `the weather is` を省略しない。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.appositive-that",
+      "title": "同格の that",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/appositive-that.md",
+      "scope": "初学者向け・名詞の内容を示す that節",
+      "summary": {
+        "principle": "同格の `that` は、名詞節を導き、その名詞節を特定の名詞に結び付けて、名詞の内容を示す。",
+        "judgmentConditions": [
+          "`that` の後ろが主語と述語動詞を備えた完全な文になっているか確認する。",
+          "`that` 節が `fact`、`idea`、`news` など、内容を示せる名詞に結び付いているか確認する。",
+          "`that` 節が名詞の内容を説明する同格関係か、名詞を選別する関係代名詞節かを区別する。"
+        ],
+        "examples": [
+          "- `the fact that she won`: `that she won` が `the fact` の内容を示す。",
+          "- `the idea that we should leave`: `that we should leave` が `the idea` の内容を示す。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.as-long-as-as-far-as",
+      "title": "as long as と as far as の使い分け",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/as-long-as-as-far-as.md",
+      "scope": "初学者向け・時間と範囲を表す表現の対比",
+      "summary": {
+        "principle": "置き換えられる日本語の範囲によって、`as long as` と `as far as` を使い分ける。\n\n- 「～する時間内では」と置き換えられる場合は `as long as` を使う。\n- 「～する範囲内では」と置き換えられる場合は `as far as` を使う。",
+        "judgmentConditions": [
+          "表したいのが時間の長さ・期間か、知識・認識などの範囲か確認する。",
+          "「～する時間内では」に置き換えて自然なら `as long as` を選ぶ。",
+          "「～する範囲内では」に置き換えて自然なら `as far as` を選ぶ。"
+        ],
+        "examples": [
+          "- 時間: `You can stay here as long as you need.` — 「必要な時間内は、ここにいてよい」。",
+          "- 範囲: `As far as I know, the store is closed.` — 「私の知る範囲では、その店は閉まっている」。",
+          "- 範囲: `As far as the eye can see, there were fields.` — 「見渡せる範囲では、野原が広がっていた」。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.compound-relatives",
+      "title": "複合関係詞(whoever/whatever/whichever/however)",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/clauses-relatives/compound-relatives.md",
+      "scope": "高校英文法・no matter who/what/which/howとの書き換え",
+      "summary": {
+        "principle": "`whoever/whatever/whichever`は、それ自体が節内の主語や目的語を兼ねながら、名詞節(〜する人は誰でも)または譲歩の副詞節(誰が/何が/どちらが〜しようとも)を作る。`however`は「however + 形容詞/副詞 + S + V」の語順で「どんなに〜でも」という譲歩の副詞節を作る点が他の3語と異なる。いずれも`no matter who/what/which/how`で書き換えられる。",
+        "judgmentConditions": [
+          "節が文の主語・目的語(名詞節)か、主節全体を修飾する譲歩(副詞節)かを確認する。",
+          "`however`の直後には形容詞・副詞が置かれ、`however`単独でSVを続けない。"
+        ],
+        "examples": [
+          "- 正例: `Whoever comes first will get the prize.`(名詞節・主語)",
+          "- 正例: `Whatever you decide, I will support you.`(副詞節・譲歩)",
+          "- 正例: `However hard you try, you cannot finish it today.`(however + 形容詞 + S + V)",
+          "- 対比例: `No matter how hard you try, ...`(同義の書き換え)"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.coordinating-conjunctions",
+      "title": "等位接続詞の働き",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/coordinating-conjunctions.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "等位接続詞は、次のように、働きが同じ単位を対等につなぐ。\n\n1. 働きが同じ語・句・節を対等につなぐ。\n2. 文と文を対等につなぐ。",
+        "judgmentConditions": [
+          "接続詞の前後にある単位が、同じ文法上の働きをしているか確認する。",
+          "語と語、句と句、節と節、文と文のどれをつないでいるか確認する。",
+          "一方が他方の一部を説明する従属関係ではなく、対等な関係か確認する。"
+        ],
+        "examples": [
+          "- 語と語: `Tom and Mary`",
+          "- 句と句: `in the room and under the table`",
+          "- 節と節: `He came and I left`",
+          "- 文と文: `It was late, so we went home.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.if-clause-functions",
+      "title": "if節の働きと意味",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/if-clause-functions.md",
+      "scope": "初学者向け・副詞節と名詞節を導く if",
+      "summary": {
+        "principle": "`if` は、節全体の文中での働きによって意味が変わる。\n\n1. 副詞節を導く場合は、条件を表す「もし～ならば」となる。\n2. `even if` の形で副詞節を導く場合は、「たとえ～でも」となる。\n3. 名詞節を導く場合は、「～かどうか」となる。",
+        "judgmentConditions": [
+          "`if` が導く節全体が、主節の条件を表す副詞節か、文の要素になる名詞節か確認する。",
+          "`even if` か単独の `if` か確認する。",
+          "名詞節の `if` は、疑問の内容「～かどうか」として文中に組み込まれているか確認する。"
+        ],
+        "examples": [
+          "- 副詞節: `If it rains, we will stay home.` — 「もし雨が降れば、家にいる」。",
+          "- `even if`: `Even if it rains, we will go.` — 「たとえ雨が降っても、行く」。",
+          "- 名詞節: `I don't know if it will rain.` — `if it will rain` が「雨が降るかどうか」という名詞節。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.in-case",
+      "title": "in case の意味",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/in-case.md",
+      "scope": "初学者向け・起こることに備える副詞節",
+      "summary": {
+        "principle": "`in case` は、あることが起こる場合に備える意味を表す。「もしも～の場合には」「～するといけないから」と訳せる。",
+        "judgmentConditions": [
+          "`in case` の後ろに、起こる可能性のある内容が続いているか確認する。",
+          "主節が、その可能性に備えて先に行う行動を表しているか確認する。",
+          "単に条件が成立したときの結果を述べる `if` と、備えの意味を区別する。"
+        ],
+        "examples": [
+          "- `Take an umbrella in case it rains.` — 「雨が降るといけないから、傘を持っていきなさい」。",
+          "- `I wrote down the address in case I forgot it.` — 「忘れる場合に備えて、住所を書き留めた」。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.not-only-but-also",
+      "title": "not only A but also Bの意味・倒置・一致",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/clauses-relatives/not-only-but-also.md",
+      "scope": "高校英文法・文頭倒置と動詞の一致",
+      "summary": {
+        "principle": "`not only A but also B`はAとBの両方を「Aだけでなく、Bも」と並べる相関接続詞である。`not only`が文頭に出て強調されるときは、疑問文と同じ語順の倒置(助動詞・be動詞が主語の前に出る)が起こる。AとBが主語を含む場合、述語動詞はBの方(主語に近い方)に人称・数を一致させる。",
+        "judgmentConditions": [
+          "`not only`が文中にあるか文頭にあるかで、倒置の要否を判断する。",
+          "主語がnot only A but also Bの形のとき、動詞の一致対象がBであることを確認する。"
+        ],
+        "examples": [
+          "- 正例: `She is not only intelligent but also hardworking.`(文中・倒置なし)",
+          "- 正例: `Not only did she pass the exam, but she also won a scholarship.`(文頭・didによる倒置)",
+          "- 正例: `Not only my parents but also my brother is coming.`(Bのmy brotherに一致)"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.reason-condition-subordinators",
+      "title": "now that と provided (that) の意味",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/clauses-relatives/reason-condition-subordinators.md",
+      "scope": "高校英文法・理由の副詞節と条件の副詞節",
+      "summary": {
+        "principle": "`now that + S + V`は「(今は)〜なので」と、新しく成立した状況を理由として述べる従属接続詞である。`provided (that)/providing (that) + S + V`は「〜という条件なら」と、`if`よりも条件を強く限定する従属接続詞である。どちらも副詞節を作り、`that`は省略できる。",
+        "judgmentConditions": [
+          "理由(すでに成立した新しい事実)を述べているか、条件(その条件を満たす場合に限る)を述べているかを確認する。",
+          "`provided`は`providing`と同じ意味で使えるが、`provided`の方が標準的とされる。"
+        ],
+        "examples": [
+          "- 正例: `Now that you are an adult, you can vote.`",
+          "- 正例: `You may leave early, provided that you finish your work.`",
+          "- 対比例: `Because it was raining, we stayed home.`(単なる理由、newな状況の成立ではない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.relative-adverbs",
+      "title": "関係副詞 where と when",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/clauses-relatives/relative-adverbs.md",
+      "scope": "高校英文法・場所と時を表す関係節",
+      "summary": {
+        "principle": "先行詞が場所・時を表し、後ろの節に主語・目的語などがそろっていて副詞情報が欠けるとき、場所には`where`、時には`when`を使う。",
+        "judgmentConditions": [
+          "先行詞の意味と、関係詞節内で欠けている要素が名詞か副詞かを確認する。"
+        ],
+        "examples": [
+          "- `the town where I was born`",
+          "- `the day when we first met`"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.relative-clause-uses",
+      "title": "関係代名詞の制限用法・非制限用法",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/relative-clause-uses.md",
+      "scope": "初学者向け・形容詞節の範囲",
+      "summary": {
+        "principle": "### 関係代名詞の制限用法\n\n制限用法は、先行詞の範囲を狭める形容詞節を作る用法である。\n\n### 関係代名詞の非制限用法\n\n非制限用法は、先行詞の範囲を狭めず、先行詞に説明を付け加えているだけの形容詞節を作る用法である。",
+        "judgmentConditions": [
+          "関係代名詞節が先行詞の範囲を狭めているか確認する。",
+          "範囲を狭めているなら制限用法として扱う。",
+          "範囲を狭めず、先行詞への説明を付け加えているだけなら非制限用法として扱う。"
+        ],
+        "examples": [
+          "- 制限用法: `the students who studied`: `who studied` が、説明対象となる学生の範囲を狭める。",
+          "- 非制限用法: `Tom, who studied, ...`: `who studied` が `Tom` に説明を付け加える。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.relative-pronoun-omission",
+      "title": "関係代名詞の省略",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/relative-pronoun-omission.md",
+      "scope": "初学者向け・3条件",
+      "summary": {
+        "principle": "関係代名詞は、次の3つの条件をすべて満たした場合に省略できる。\n\n1. 制限用法である。\n2. 形容詞節の先頭にある。\n3. 形容詞節の内側で、動詞の目的語または前置詞の目的語になっている。",
+        "judgmentConditions": [
+          "関係代名詞節が制限用法か確認する。",
+          "関係代名詞が形容詞節の先頭にあるか確認する。",
+          "形容詞節の内側で、関係代名詞が動詞の目的語または前置詞の目的語になっているか確認する。",
+          "3条件がすべてそろっている場合だけ、省略できると判断する。"
+        ],
+        "examples": [
+          "- 動詞の目的語: `the book (that) I read` — `that` を省略できる。",
+          "- 前置詞の目的語: `the person (whom) I spoke to` — `whom` を省略できる。",
+          "- 主語の場合: `the boy who runs` — `who` は動詞の主体なので、この3条件による省略の対象にしない。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.relative-pronouns",
+      "title": "関係代名詞の働きと条件",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/relative-pronouns.md",
+      "scope": "初学者向け・名詞を説明する文",
+      "summary": {
+        "principle": "関係代名詞は、「普通の文」を「名詞を説明する文」に変えるために使う言葉である。\n\n### 関係代名詞の機能\n\n1. 説明文の存在を知らせる目印になる。\n2. 関係代名詞を動かして、説明文の開始点を知らせる。\n3. 説明文がどの名詞を説明しているのかを示す。\n\n### 関係代名詞の条件\n\n1. 説明される名詞と同じ名詞を含んでいる。\n2. その名詞が、関係代名詞という特別な語に置き換わっている。\n3. 関係代名詞が、説明文の先頭に移動している。",
+        "judgmentConditions": [
+          "普通の文が、名詞を説明する文として組み込まれているか確認する。",
+          "説明される名詞と同じ名詞が、関係代名詞に置き換わっているか確認する。",
+          "関係代名詞が説明文の先頭にあり、説明文の開始点を示しているか確認する。",
+          "説明文がどの名詞を説明しているか確認する。"
+        ],
+        "examples": [
+          "- `the boy who runs`: `who runs` が `the boy` を説明する文で、`who` が説明文の開始点を示す。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.sentential-which",
+      "title": "前の節全体を先行詞にする which",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/clauses-relatives/sentential-which.md",
+      "scope": "高校英文法・節や文の内容を受ける非制限用法の which",
+      "summary": {
+        "principle": "関係詞節には、名詞(句)を先行詞にするものだけでなく、前の節・文の内容全体を受けるものがある。この用法で使える関係詞は `which` であり、コンマで区切った非制限用法で用いる。",
+        "judgmentConditions": [
+          "関係詞が指しているのが、直前の1つの名詞か、それとも前の節が述べた内容全体かを確認する。",
+          "内容全体を受けており、それについて評価や結果を述べているなら `which` を選ぶ。",
+          "直前に読点(コンマ)があり、節と節をつなぐ働きをしているかを確認する。"
+        ],
+        "examples": [
+          "- 正例: `He said he had finished the report, which turned out to be untrue.`(「報告書を終えたと言ったこと」全体を受ける)",
+          "- 正例: `She just lives six doors away, which is very handy.`",
+          "- 対比例: `He gave me a report which was untrue.`(`which` が名詞 `a report` を先行詞にする制限用法)"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.so-that-meanings",
+      "title": "so ... that の意味",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/so-that-meanings.md",
+      "scope": "初学者向け・結果と程度を表す so ... that",
+      "summary": {
+        "principle": "`so + 形容詞・副詞 + that ...` は、強い程度と、その程度に結びつく内容を表す。文脈に応じて、次のように訳す。\n\n1. 結果に焦点を置く場合は、「とても～なので、その結果…だ」となる。\n2. 程度に焦点を置く場合は、「…なくらい～だ」となる。",
+        "judgmentConditions": [
+          "`so` の後ろが形容詞または副詞で、その後ろに `that` 節が続いているか確認する。",
+          "`that` 節が、強い程度から生じた結果を表しているか確認する。",
+          "日本語訳では、結果に焦点を置くか、程度に焦点を置くかを文脈に合わせる。"
+        ],
+        "examples": [
+          "- 結果: `It was so cold that the lake froze.` — 「とても寒かったので、その結果、湖が凍った」。",
+          "- 程度: `The lake was so cold that we could not swim.` — 「私たちが泳げないくらい、湖は冷たかった」。"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.so-that-purpose",
+      "title": "目的を表す so that",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/clauses-relatives/so-that-purpose.md",
+      "scope": "高校英文法・目的を表すso that節",
+      "summary": {
+        "principle": "`so that + S + can/could/will/would ...`は、主節の動作の目的を「～するように・～するために」と表す。",
+        "judgmentConditions": [
+          "that節が主節の結果ではなく、意図された目的を表すか確認する。"
+        ],
+        "examples": [
+          "- `I wrote it down so that I would not forget it.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.subordinating-conjunctions",
+      "title": "従属接続詞の働き",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/subordinating-conjunctions.md",
+      "scope": "初学者向け・名詞節と副詞節",
+      "summary": {
+        "principle": "従属接続詞は、「完全な文」の前に付いて、その文を名詞節または副詞節にする。\n\n従属接続詞は、文を名詞節または副詞節にする働きをするだけで、従属接続詞自体は、その名詞節・副詞節の中で文の要素にはならない。",
+        "judgmentConditions": [
+          "従属接続詞の後ろが、主語と述語動詞を備えた「完全な文」になっているか確認する。",
+          "そのまとまり全体が、名詞節または副詞節として働いているか確認する。",
+          "従属接続詞そのものを、節の主語・目的語・補語などの文の要素として数えない。"
+        ],
+        "examples": [
+          "- 副詞節: `because he was tired`",
+          "- 名詞節: `that he was tired`"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.what-nominal-clause",
+      "title": "whatが作る名詞節",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/clauses-relatives/what-nominal-clause.md",
+      "scope": "高校英文法・the thing thatに相当するwhat",
+      "summary": {
+        "principle": "`what`は先行詞を別に置かず、「～するもの・こと」という名詞節を作り、`the thing(s) that`に相当する。",
+        "judgmentConditions": [
+          "文中に別の先行詞がなく、what節全体が主語・目的語・補語になるか確認する。"
+        ],
+        "examples": [
+          "- `What you need is more practice.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.clauses-relatives.whether-clause-functions",
+      "title": "whether節の働きと意味",
+      "domain": "clauses-relatives",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/clauses-relatives/whether-clause-functions.md",
+      "scope": "初学者向け・副詞節と名詞節を導く whether",
+      "summary": {
+        "principle": "`whether` は、二つの可能性を比べる内容を表し、節全体の文中での働きによって意味が変わる。\n\n1. `whether ... or not` などで副詞節を導く場合は、「～であろうとなかろうと」となる。\n2. 名詞節を導く場合は、「～かどうか」となる。",
+        "judgmentConditions": [
+          "`whether` が導く節全体が、主節に条件を加える副詞節か、文の要素になる名詞節か確認する。",
+          "`or not` や `or A` があり、二つの可能性を比べているか確認する。",
+          "名詞節の場合は、その節全体が「何を知っているか」「何を決めるか」などの内容になっているか確認する。"
+        ],
+        "examples": [
+          "- 副詞節: `Whether it rains or not, we will go.` — 「雨が降ろうと降るまいと、行く」。",
+          "- 名詞節: `I don't know whether he will come.` — `whether he will come` が「彼が来るかどうか」という名詞節。",
+          "- 選択: `You must decide whether to stay or leave.` — 「残るか去るか」を表す内容。"
+        ]
+      }
+    },
+    {
+      "id": "egp.comparison.extended-patterns",
+      "title": "入試頻出の比較構文",
+      "domain": "comparison",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/comparison/extended-patterns.md",
+      "scope": "高校英文法・比較級の強調、倍数、最上級相当",
+      "summary": {
+        "principle": "比較級は`much/far/a lot`などで強め、倍数は`倍数 + as + 原級 + as`で表す。`比較級 + than any other + 単数名詞`や`one of the + 最上級 + 複数名詞`では比較範囲を形に反映する。",
+        "judgmentConditions": [
+          "程度の強調、倍数、比較対象から本人を除く必要、集団内の一つかを確認する。"
+        ],
+        "examples": [
+          "- `much better`",
+          "- `twice as long as`",
+          "- `larger than any other city`",
+          "- `one of the most useful tools`"
+        ]
+      }
+    },
+    {
+      "id": "egp.comparison.forms-and-targets",
+      "title": "比較の形と比較対象",
+      "domain": "comparison",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/comparison/forms-and-targets.md",
+      "scope": "高校英文法・原級、比較級、最上級",
+      "summary": {
+        "principle": "同程度は`as + 原級 + as`、二者の差は比較級、集団内の最大・最小は最上級で表し、比較対象を文中で対応させる。",
+        "judgmentConditions": [
+          "比較する対象の数、同程度か差か、集団内の順位かを確認する。"
+        ],
+        "examples": [
+          "- `as tall as Ken`",
+          "- `taller than Ken`",
+          "- `the tallest student in the class`"
+        ]
+      }
+    },
+    {
+      "id": "egp.comparison.idiomatic-degree-patterns",
+      "title": "比較を使った程度・数量の慣用構文",
+      "domain": "comparison",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/comparison/idiomatic-degree-patterns.md",
+      "scope": "高校英文法・くじらの構文、no more/no less than、not so much A as B",
+      "summary": {
+        "principle": "比較の形を使って、程度や数量を間接的に述べる3つの慣用構文がある。`A is no more B than C is D`(くじらの構文)は「CがDでないのと同様、AはBではない」と両方を否定する。`no more than + 数量`は「たった〜しかない」と少なさを、`no less than + 数量`は「〜も」と多さを強調する(`not more than`＝せいぜい〜、`not less than`＝少なくとも〜という事実の上限・下限とは異なる)。`not so much A as B`は「AというよりむしろB」とBを優先する。",
+        "judgmentConditions": [
+          "2つの事柄を同時に否定しているか(くじらの構文)、数量の少なさ/多さの強調か、2つの性質の優先順位かを見分ける。"
+        ],
+        "examples": [
+          "- 正例: `A whale is no more a fish than a horse is.`(クジラは魚ではない、馬が魚でないのと同様に)",
+          "- 正例: `He has no less than ten thousand dollars.`(1万ドルも)/`He has no more than ten thousand dollars.`(たった1万ドルしか)",
+          "- 正例: `She is not so much a scholar as a writer.`(学者というよりむしろ作家)",
+          "- 対比例: `He has not more than ten dollars.`(せいぜい10ドル、上限)/`He has not less than ten dollars.`(少なくとも10ドル、下限)"
+        ]
+      }
+    },
+    {
+      "id": "egp.conditionals-subjunctive.as-if-unreal-tense",
+      "title": "as if / as though 節の非現実の時制",
+      "domain": "conditionals-subjunctive",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/conditionals-subjunctive/as-if-unreal-tense.md",
+      "scope": "高校英文法・主節と同時の非現実は過去形、主節より前の非現実は過去完了形",
+      "summary": {
+        "principle": "`as if` / `as though` の節の内容を、事実ではない(と話し手が考えている)こととして述べるときは、動詞の形を一段階前にずらす。主節と同じ時点の内容なら過去形、主節よりも前の時点の内容なら過去完了形にする。",
+        "judgmentConditions": [
+          "節の内容を、話し手が事実ではないものとして述べているかを確認する。",
+          "事実ではないとして述べている場合、その内容が主節と同じ時点のことか、主節より前のことかを確認する。",
+          "同じ時点なら過去形、主節より前なら `had + 過去分詞` にする。"
+        ],
+        "examples": [
+          "- 主節より前の非現実: `He talks as if he had seen the accident, but he was not even there.`(話す時点より前の出来事を、事実に反する内容として述べる)",
+          "- 主節と同じ時点の非現実: `Some people behave as if their actions had no consequences.`",
+          "- 本当らしい内容: `It looks as though you've not met before.`(形をずらさない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.conditionals-subjunctive.future-subjunctive",
+      "title": "未来の仮定法の公式",
+      "domain": "conditionals-subjunctive",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/conditionals-subjunctive/future-subjunctive.md",
+      "scope": "初学者向け・万一の仮定とあくまで仮の話",
+      "summary": {
+        "principle": "未来の仮定法には、次の2つの公式がある。\n\n1. `If S + should + 原形, S + would + 原形 / 命令文 / 直接法`\n   - 「もし（万一）～なら、…だろうに・…しなさい」\n2. `If S + were to + 原形, S + would + 原形`\n   - 「（あくまで仮の話で）～なら、…だろうに」",
+        "judgmentConditions": [
+          "`if` 節が `should + 原形` か `were to + 原形` になっているか確認する。",
+          "`should` の公式では、主節が `would + 原形`、命令文、または直接法のいずれかになっているか確認する。",
+          "`were to` の公式では、主節が `would + 原形` になっているか確認する。"
+        ],
+        "examples": [
+          "- `If you should need help, call me.`: もし万一助けが必要なら、私に電話しなさい。",
+          "- `If the plan were to fail, we would need a new one.`: もしその計画が失敗するとしたら、新しいものが必要だろうに。"
+        ]
+      }
+    },
+    {
+      "id": "egp.conditionals-subjunctive.if-omission-inversion",
+      "title": "If省略による倒置",
+      "domain": "conditionals-subjunctive",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/conditionals-subjunctive/if-omission-inversion.md",
+      "scope": "初学者向け・Were / Had / Shouldの倒置",
+      "summary": {
+        "principle": "仮定法では、`if` を省略し、省略の目印として倒置を起こすことができる。主語の前に動詞を出す、簡略な倒置が使えるのは `Were`・`Had`・`Should` の場合である。",
+        "judgmentConditions": [
+          "仮定法の `if` が省略されているか確認する。",
+          "文頭が `Were + S`、`Had + S`、`Should + S` の形になっているか確認する。",
+          "倒置を元に戻して、`if` を補って意味が通るか確認する。"
+        ],
+        "examples": [
+          "- `Had I known, I would have helped.` = `If I had known, I would have helped.`",
+          "- `Were I you, I would accept.` = `If I were you, I would accept.`",
+          "- `Should you need help, call me.` = `If you should need help, call me.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.conditionals-subjunctive.mixed-subjunctive",
+      "title": "ミックス仮定法の公式",
+      "domain": "conditionals-subjunctive",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/conditionals-subjunctive/mixed-subjunctive.md",
+      "scope": "初学者向け・過去の仮定と現在の結果",
+      "summary": {
+        "principle": "ミックス仮定法は、次の公式で表す。\n\n`If S + had + p.p., S + would + 原形`\n\n意味は「もし（あのとき）～だったら、（今は）…だろうに」である。主節の `would` は、`could`・`might`・`should` に置き換えることもできる。",
+        "judgmentConditions": [
+          "`if` 節が `had + p.p.` になっているか確認する。",
+          "主節が `would / could / might / should + 原形` になっているか確認する。",
+          "条件は過去、結果は現在の状態・可能性として読めるか確認する。"
+        ],
+        "examples": [
+          "- `If I had taken the job, I would live in Tokyo now.`: あのときその仕事を受けていたら、今は東京に住んでいるだろうに。"
+        ]
+      }
+    },
+    {
+      "id": "egp.conditionals-subjunctive.past-perfect-subjunctive",
+      "title": "仮定法過去完了の公式",
+      "domain": "conditionals-subjunctive",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/conditionals-subjunctive/past-perfect-subjunctive.md",
+      "scope": "初学者向け・過去の事実に反する仮定",
+      "summary": {
+        "principle": "仮定法過去完了は、次の公式で表す。\n\n`If S + had + p.p., S + would have + p.p.`\n\n意味は「もし（あのとき）～だったら、…だったろうに」である。主節の `would` は、`could`・`might`・`should` に置き換えることもできる。",
+        "judgmentConditions": [
+          "`if` 節が `had + p.p.` になっているか確認する。",
+          "主節が `would / could / might / should + have + p.p.` になっているか確認する。",
+          "仮定と結果が過去の時点に関係しているか確認する。"
+        ],
+        "examples": [
+          "- `If I had studied harder, I would have passed the exam.`: あのときもっと勉強していたら、試験に合格していただろうに。",
+          "- `If she had left earlier, she might have caught the train.`: 彼女がもっと早く出ていたら、電車に間に合ったかもしれない。"
+        ]
+      }
+    },
+    {
+      "id": "egp.conditionals-subjunctive.past-subjunctive",
+      "title": "仮定法過去の公式",
+      "domain": "conditionals-subjunctive",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/conditionals-subjunctive/past-subjunctive.md",
+      "scope": "初学者向け・現在の事実に反する仮定",
+      "summary": {
+        "principle": "仮定法過去は、次の公式で表す。\n\n`If S + 過去形, S + would + 原形`\n\n意味は「もし（今）～ならば、…だろうに」である。主節の `would` は、`could`・`might`・`should` に置き換えることもできる。",
+        "judgmentConditions": [
+          "`if` 節が過去形になっているか確認する。",
+          "主節が `would / could / might / should + 原形` になっているか確認する。",
+          "過去形が、過去の出来事ではなく現在の反実仮想を表しているか確認する。"
+        ],
+        "examples": [
+          "- `If I had more time, I would read more.`: 今もっと時間があれば、もっと読むのに。",
+          "- `If she knew the answer, she could help us.`: 彼女が今答えを知っていれば、私たちを助けられるのに。"
+        ]
+      }
+    },
+    {
+      "id": "egp.conditionals-subjunctive.wish",
+      "title": "wishと事実に反する願望",
+      "domain": "conditionals-subjunctive",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/conditionals-subjunctive/wish.md",
+      "scope": "高校英文法・現在と過去への願望、後悔",
+      "summary": {
+        "principle": "現在の事実と異なる願望は`wish + 過去形`、過去への後悔は`wish + had + p.p.`で表す。",
+        "judgmentConditions": [
+          "願望が現在の状態についてか、すでに終わった過去についてかを確認する。"
+        ],
+        "examples": [
+          "- `I wish I were taller.`",
+          "- `I wish I had studied harder.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.conditionals-subjunctive.without-implied-condition",
+      "title": "withoutで表す仮定条件",
+      "domain": "conditionals-subjunctive",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/conditionals-subjunctive/without-implied-condition.md",
+      "scope": "高校英文法・if節を使わない現在と過去の仮定",
+      "summary": {
+        "principle": "`without + 名詞`は「もし～がなければ」という条件を表せる。主節が`would / could + have + p.p.`なら、過去の事実に反する条件として`if ... had not ...`に相当する。",
+        "judgmentConditions": [
+          "`without`の後ろが、実際には存在した人・物・助力などを指すか確認する。",
+          "主節が現在・未来の結果か、過去の反実結果かを確認する。"
+        ],
+        "examples": [
+          "- `Without your help, I could not have finished the work.`",
+          "- `Without water, we could not live.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.can",
+      "title": "canの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/can.md",
+      "scope": "初学者向け・可能、許可、申し出、依頼、可能性",
+      "summary": {
+        "principle": "`can` は、次の意味を表す。\n\n1. 可能「～できる」\n2. 許可「～してもよい」／疑問文で申し出「～しましょうか」\n3. 疑問文で依頼「～してくれる？」\n4. 可能性「ありえる」",
+        "judgmentConditions": [
+          "能力・可能を表しているか確認する。",
+          "許可を表しているか確認する。",
+          "疑問文で申し出をしているか確認する。",
+          "疑問文で依頼をしているか確認する。",
+          "可能性を表しているか確認する。"
+        ],
+        "examples": [
+          "- 可能: `She can swim.`",
+          "- 許可: `You can use my pen.`",
+          "- 申し出: `Can I carry that for you?`",
+          "- 依頼: `Can you open the window?`",
+          "- 可能性: `Accidents can happen.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.could-have-pp",
+      "title": "could have p.p.の意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/could-have-pp.md",
+      "scope": "初学者向け・仮定法、過去への予想",
+      "summary": {
+        "principle": "`could have p.p.` は、次の意味を表す。\n\n1. 仮定法「～できただろうに」\n2. 過去への予想\n   - 肯定文「～したかもしれない」\n   - 否定文「～したはずがない」",
+        "judgmentConditions": [
+          "`could have` の後ろに過去分詞形が続いているか確認する。",
+          "仮定法か、過去への予想かを確認する。",
+          "過去への予想では、肯定文か否定文かを確認する。"
+        ],
+        "examples": [
+          "- 仮定法: `I could have won if I had practiced.`",
+          "- 過去への予想・肯定: `He could have missed the train.`",
+          "- 過去への予想・否定: `He could not have done it.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.could",
+      "title": "couldの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/could.md",
+      "scope": "初学者向け・仮定法、丁寧表現、過去用法",
+      "summary": {
+        "principle": "### メインの用法\n\n1. 仮定法「～できたろうに」\n2. 遠回しの丁寧表現\n3. 可能性「（もしかしたら）～することがありえる・かもしれない」\n\n### 過去形としての用法\n\n1. 過去の可能「～できた」\n2. 過去の可能性「～しかねなかった」\n3. `can` の過去形",
+        "judgmentConditions": [
+          "仮定法の内容か確認する。",
+          "遠回しな丁寧表現か確認する。",
+          "可能性を表しているか確認する。",
+          "過去の可能、過去の可能性、または `can` の過去形か確認する。"
+        ],
+        "examples": [
+          "- 仮定法: `I could have won.`",
+          "- 丁寧表現: `Could you open the window?`",
+          "- 可能性: `It could rain tonight.`",
+          "- 過去の可能: `I could swim when I was five.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.have-to",
+      "title": "have toの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/have-to.md",
+      "scope": "初学者向け・義務、推定",
+      "summary": {
+        "principle": "`have to` は、次の意味を表す。\n\n1. 義務「～しなければならない」\n2. 推定「～に違いない・きっと～だ」",
+        "judgmentConditions": [
+          "行動を義務として求めているか確認する。",
+          "根拠から推定しているか確認する。",
+          "`must` と同じ意味領域を、客観的な事情として表しているか確認する。"
+        ],
+        "examples": [
+          "- 義務: `I have to leave now.`",
+          "- 推定: `There has to be a reason.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.may",
+      "title": "mayの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/may.md",
+      "scope": "初学者向け・許可、推量",
+      "summary": {
+        "principle": "`may` は、次の意味を表す。\n\n1. 許可「～してもよい」\n2. 推量「～かもしれない」",
+        "judgmentConditions": [
+          "相手に許可を与えているか確認する。",
+          "可能性を推量しているか確認する。"
+        ],
+        "examples": [
+          "- 許可: `You may leave now.`",
+          "- 推量: `It may rain tonight.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.might-have-pp",
+      "title": "might have p.p.の意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/might-have-pp.md",
+      "scope": "初学者向け・過去への予想、仮定法",
+      "summary": {
+        "principle": "`might have p.p.` は、次の意味を表す。\n\n1. 過去への予想「～したかもしれない」\n2. 仮定法「～だったかもしれないのに」",
+        "judgmentConditions": [
+          "`might have` の後ろに過去分詞形が続いているか確認する。",
+          "過去への予想か、仮定法かを文脈で確認する。"
+        ],
+        "examples": [
+          "- 過去への予想: `She might have missed the bus.`",
+          "- 仮定法: `He might have won if he had tried.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.might",
+      "title": "mightの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/might.md",
+      "scope": "初学者向け・控えめなmay、仮定法、過去用法",
+      "summary": {
+        "principle": "### メインの用法\n\n1. 控えめな `may`「（もしかしたら）～かもしれない・～してもよい」\n2. 仮定法「～だろうに」\n\n### 過去形としての用法\n\n1. `may` の過去形",
+        "judgmentConditions": [
+          "控えめな `may` として可能性または許可を表しているか確認する。",
+          "仮定法の内容か確認する。",
+          "`may` の過去形として使われているか確認する。"
+        ],
+        "examples": [
+          "- 控えめな推量: `It might rain.`",
+          "- 許可: `Might I come in?`",
+          "- `may` の過去形: `She said it might rain.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.must",
+      "title": "mustの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/must.md",
+      "scope": "初学者向け・義務、推定",
+      "summary": {
+        "principle": "`must` は、次の意味を表す。\n\n1. 義務「～しなければならない」\n2. 推定「～に違いない・きっと～だ」",
+        "judgmentConditions": [
+          "行動を義務として求めているか確認する。",
+          "根拠から強く推定しているか確認する。"
+        ],
+        "examples": [
+          "- 義務: `You must wear a helmet.`",
+          "- 推定: `He must be tired.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.ought-to",
+      "title": "ought toの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/ought-to.md",
+      "scope": "初学者向け・義務、推量",
+      "summary": {
+        "principle": "`ought to` は `should` と同じ意味で、次の意味を表す。\n\n1. 義務「～すべき」\n2. 推量「～のはずだ」",
+        "judgmentConditions": [
+          "義務を表しているか確認する。",
+          "推量を表しているか確認する。",
+          "`should` と同じ意味領域で使われているか確認する。"
+        ],
+        "examples": [
+          "- 義務: `You ought to apologize.`",
+          "- 推量: `The train ought to arrive soon.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.shall",
+      "title": "shallの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/shall.md",
+      "scope": "初学者向け・申し出",
+      "summary": {
+        "principle": "`shall` は、次の疑問文で申し出を表す。\n\n1. `Shall I ...?` 「（私が）～しましょうか？」\n2. `Shall we ...?` 「（私たちみんなで）～しましょうか？」",
+        "judgmentConditions": [
+          "`Shall I ...?` の形で、話し手の申し出か確認する。",
+          "`Shall we ...?` の形で、話し手を含む複数人への提案か確認する。"
+        ],
+        "examples": [
+          "- `Shall I open the window?`",
+          "- `Shall we start?`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.should-have-pp",
+      "title": "should have p.p.の意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/should-have-pp.md",
+      "scope": "初学者向け・イヤミ、過去への予想、仮定法",
+      "summary": {
+        "principle": "`should have p.p.` は、次の意味を表す。\n\n1. イヤミ「～すべきだったのに」\n2. 過去への予想「～だったはずだ」\n3. 仮定法「～だったろうに」",
+        "judgmentConditions": [
+          "`should have` の後ろに過去分詞形が続いているか確認する。",
+          "イヤミ、過去への予想、仮定法のどれかを文脈で確認する。"
+        ],
+        "examples": [
+          "- イヤミ: `You should have told me.`",
+          "- 過去への予想: `The train should have arrived by now.`",
+          "- 仮定法: `It should have been different.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.should",
+      "title": "shouldの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/should.md",
+      "scope": "初学者向け・義務、推量、仮定法関連",
+      "summary": {
+        "principle": "### メインの用法\n\n1. 義務・忠告「（当然）～すべき」\n2. 推量・推定「（当然）～のはずだ」\n\n### 仮定法に関わる用法\n\n1. 仮定法過去・仮定法過去完了\n2. 未来の仮定法\n3. 仮定法現在の代わり\n4. 感情の `should`",
+        "judgmentConditions": [
+          "義務・忠告を表しているか確認する。",
+          "推量・推定を表しているか確認する。",
+          "仮定法過去・仮定法過去完了、未来の仮定法に関係するか確認する。",
+          "仮定法現在の代わり、または感情の `should` か確認する。"
+        ],
+        "examples": [
+          "- 義務・忠告: `You should rest.`",
+          "- 推量・推定: `He should be home by now.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.used-to",
+      "title": "used to + 原形(過去の習慣・状態)",
+      "domain": "modality",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/modality/used-to.md",
+      "scope": "高校英文法・過去の習慣と過去の状態を表す used to、および would との使い分け",
+      "summary": {
+        "principle": "`used to + 動詞の原形` は、過去には事実だったが今はそうではない習慣・状態を表す。動作動詞にも状態動詞にも使える。これに対し `would` は繰り返された過去の**動作**だけを表し、状態動詞には使えない。したがって、過去と現在の状態を対比する文では `used to` を使う。",
+        "judgmentConditions": [
+          "「以前は〜だった/〜していたが、今は違う」という現在との対比があるかを確認する。あれば `used to`。",
+          "空所に入る動詞が状態動詞(`be`、`have`、`like`、`hate`、`live` など)かを確認する。状態動詞なら `would` は使えず、`used to` だけが成り立つ。",
+          "`thirty years ago`、`in those days` など、現在と切り離された過去を示す語句があるかを確認する。",
+          "`used to` の後ろが原形か動名詞かを確認する。動名詞が続くなら `be/get used to`(慣れ)であって、この用法ではない。"
+        ],
+        "examples": [
+          "- 正例: `On Sundays, my parents used to take me to dance school.`(Grammaringの用例。動作動詞)",
+          "- 正例: `I used to hate dancing in those days.`(Grammaringの用例。状態動詞)",
+          "- 正例: `England is quite different from what it used to be thirty years ago.`(過去の状態と現在の対比)",
+          "- 対比例: `From time to time, he would call her to ask if she wanted to meet for lunch.`(Grammaringの用例。繰り返された動作なので `would` が使える)",
+          "- 対比例: `I would hate dancing in those days.`(誤り。状態動詞に `would` は使えない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.will",
+      "title": "willの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/will.md",
+      "scope": "初学者向け・意思、推量、習慣、拒絶",
+      "summary": {
+        "principle": "`will` は、次の意味を表す。\n\n1. 意思「～するつもり」\n2. 推量「～するはず・きっと～するだろう・～するでしょう」\n3. 習慣・習性「～する習慣」\n4. 拒絶「否定文で、絶対に～しない」",
+        "judgmentConditions": [
+          "意思を表しているか確認する。",
+          "推量を表しているか確認する。",
+          "習慣・習性を表しているか確認する。",
+          "否定文で拒絶を表しているか確認する。"
+        ],
+        "examples": [
+          "- 意思: `I will study tonight.`",
+          "- 推量: `She will be home soon.`",
+          "- 習慣・習性: `He will often sit by the window.`",
+          "- 拒絶: `He will not listen.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.would-have-pp",
+      "title": "would have p.p.の意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/would-have-pp.md",
+      "scope": "初学者向け・仮定法、過去への予想",
+      "summary": {
+        "principle": "`would have p.p.` は、次の意味を表す。\n\n1. 仮定法「～だったろうに」\n2. 過去への予想「～しただろう・～したはずだ」",
+        "judgmentConditions": [
+          "`would have` の後ろに過去分詞形が続いているか確認する。",
+          "仮定法の内容か、過去への予想かを文脈で確認する。"
+        ],
+        "examples": [
+          "- 仮定法: `I would have helped you if I had known.`",
+          "- 過去への予想: `She would have arrived by now.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modality.would",
+      "title": "wouldの意味",
+      "domain": "modality",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modality/would.md",
+      "scope": "初学者向け・仮定法、丁寧表現、過去用法",
+      "summary": {
+        "principle": "### メインの用法\n\n1. 仮定法「～だろうに」\n2. 遠回しの丁寧表現\n3. 推量・婉曲「～だろう」\n\n### 過去形としての用法\n\n1. 過去の習慣「よく～したものだ」\n2. 過去の拒絶（否定文で、どうしても～しようとしなかった）\n3. `will` の過去形",
+        "judgmentConditions": [
+          "仮定法の内容か確認する。",
+          "遠回しな丁寧表現か確認する。",
+          "推量・婉曲を表しているか確認する。",
+          "過去の習慣、過去の拒絶、または `will` の過去形か確認する。"
+        ],
+        "examples": [
+          "- 仮定法: `I would go if I had time.`",
+          "- 丁寧表現: `Would you help me?`",
+          "- 過去の習慣: `We would play outside after school.`",
+          "- `will` の過去形: `She said she would come.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.adjective-uses",
+      "title": "形容詞の2用法",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modifiers/adjective-uses.md",
+      "scope": "初学者向け・限定用法と叙述用法",
+      "summary": {
+        "principle": "形容詞には、次の2つの用法がある。\n\n1. 限定用法: 名詞を修飾する。\n2. 叙述用法: 補語になる。",
+        "judgmentConditions": [
+          "形容詞が名詞の前後でその名詞を直接説明しているか確認する。",
+          "動詞の助けを借りて主語または目的語を説明する補語になっているか確認する。"
+        ],
+        "examples": [
+          "- `a kind teacher`: `kind` は名詞 `teacher` を修飾する限定用法。",
+          "- `The teacher is kind.`: `kind` は主語を説明する補語となる叙述用法。"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.adjective",
+      "title": "形容詞の基本的な働き",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modifiers/adjective.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "形容詞は、どのような名詞であるかを説明する語である。",
+        "judgmentConditions": [
+          "名詞を直接説明しているか確認する。",
+          "名詞の前後で、その名詞の性質・状態・種類を説明しているか確認する。"
+        ],
+        "examples": [
+          "- `a kind teacher`: `kind` が `teacher` を説明する。",
+          "- `an old house`: `old` が `house` を説明する。"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.adverb-functions",
+      "title": "副詞の基本的な働き",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modifiers/adverb-functions.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "副詞は、動詞が表す行動・動き・変化について、時・場所・方法などを説明する。また、形容詞や副詞を修飾する。",
+        "judgmentConditions": [
+          "動詞の行動・動き・変化について、いつ・どこで・どのように行われるかを説明しているか確認する。",
+          "形容詞の程度や状態を説明しているか確認する。",
+          "別の副詞の程度や状態を説明しているか確認する。"
+        ],
+        "examples": [
+          "- `He runs quickly.`: `quickly` が動詞 `runs` の方法を説明する。",
+          "- `very kind`: `very` が形容詞 `kind` の程度を説明する。",
+          "- `quite slowly`: `quite` が副詞 `slowly` の程度を説明する。"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.adverb-non-noun-modification",
+      "title": "副詞の修飾対象",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modifiers/adverb-non-noun-modification.md",
+      "scope": "初学者向け・名詞以外の修飾",
+      "summary": {
+        "principle": "副詞は、名詞以外を修飾する。",
+        "judgmentConditions": [
+          "副詞が動詞、形容詞、副詞、または文全体の内容を説明しているか確認する。",
+          "名詞を直接説明している場合は、形容詞の働きと比較する。"
+        ],
+        "examples": [
+          "- `He runs quickly.`: `quickly` は動詞を修飾する。",
+          "- `very kind`: `very` は形容詞を修飾する。"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.confusable-adverbs",
+      "title": "hardとhardly、lateとlately",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/modifiers/confusable-adverbs.md",
+      "scope": "高校英文法・形が似て意味が異なる副詞",
+      "summary": {
+        "principle": "`hard`は「一生懸命に」、`hardly`は「ほとんど～ない」。`late`は「遅く」、`lately`は「最近」という別の意味を持つ。",
+        "judgmentConditions": [
+          "必要な意味が方法・時刻・最近の期間・ほぼ否定のどれかを確認する。"
+        ],
+        "examples": [
+          "- `work hard`",
+          "- `hardly sleep`",
+          "- `arrive late`",
+          "- `have been busy lately`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.enough-position",
+      "title": "enoughの位置",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/modifiers/enough-position.md",
+      "scope": "高校英文法・名詞と形容詞を修飾するenough",
+      "summary": {
+        "principle": "名詞を限定する`enough`は名詞の前、形容詞・副詞の程度を示す`enough`はその後ろに置く。",
+        "judgmentConditions": [
+          "enoughが名詞の量を示すか、形容詞・副詞の程度を示すかを確認する。"
+        ],
+        "examples": [
+          "- `enough time`",
+          "- `warm enough`"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.frequency-adverb-position",
+      "title": "頻度副詞の位置",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/modifiers/frequency-adverb-position.md",
+      "scope": "高校英文法・一般動詞、be動詞、助動詞・完了形との語順",
+      "summary": {
+        "principle": "`always / usually / often / never` などの頻度副詞は、次の基本位置に置く。\n\n| 文の構造 | 位置 | 例 |\n|---|---|---|\n| 一般動詞のみ | 一般動詞の**前** | `She usually walks to school.` |\n| be動詞 | be動詞の**後ろ** | `She is usually punctual.` |\n| 助動詞・完了形 | 助動詞（またはhave/has/had）の**後ろ**、本動詞の前 | `She has never seen it.` |\n\n頻度副詞は「頻度の強さ」（[[frequency-adverbs]]）とは別に、この語順の原則で位置が決まる。",
+        "judgmentConditions": [
+          "文に一般動詞だけがあるか、be動詞があるか、助動詞・完了形があるかを確認する。",
+          "一般動詞のみ: 頻度副詞は主語と動詞の間、動詞の直前に置く。",
+          "be動詞が唯一の動詞: 頻度副詞はbe動詞の直後に置く。",
+          "助動詞（can/will/must/should等）や完了形のhave/has/hadがある: 頻度副詞は助動詞・have/has/hadの直後、本動詞の前に置く。"
+        ],
+        "examples": [
+          "- 正例: `He is never late for work.`（be動詞の後ろ）",
+          "- 正例: `She has always been kind to me.`（助動詞have/hasの後ろ、本動詞beforeの前）",
+          "- 誤答例: `He never is late for work.`（頻度副詞をbe動詞の前に置く誤り）"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.frequency-adverbs",
+      "title": "頻度の副詞",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modifiers/frequency-adverbs.md",
+      "scope": "初学者向け・頻度の目安",
+      "summary": {
+        "principle": "頻度の副詞は、動作や状態がどの程度の頻度で起こるかを表す。次の数値は厳密な確率ではなく、学習上の目安である。\n\n| 目安 | 語 | 意味 |\n|---:|---|---|\n| 100% | `always` | いつも |\n| 80% | `usually / generally` | たいてい |\n| 60% | `often / frequently` | しばしば |\n| 50% | `sometimes` | ときどき |\n| 20% | `occasionally` | ときたま |\n| 10% | `seldom / rarely` | めったに～ない |\n| 5% | `hardly ever / scarcely ever` | ほとんど～ない |\n| 0% | `not / never` | いっさい～ない |",
+        "judgmentConditions": [
+          "動作や状態が起こる頻度をどの程度として述べているか確認する。",
+          "数値は暗記上の目安として使い、文脈上の頻度を優先する。"
+        ],
+        "examples": [
+          "- `She usually walks to school.`: 通学することがたいてい起こる。",
+          "- `He never eats breakfast.`: 朝食を食べることが0%の目安である。"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.ly-suffix",
+      "title": "-lyで終わる単語",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/modifiers/ly-suffix.md",
+      "scope": "初学者向け・語形成の目安",
+      "summary": {
+        "principle": "語形成の目安として、名詞に `-ly` を付けると形容詞、形容詞に `-ly` を付けると副詞になる。",
+        "judgmentConditions": [
+          "語のもとになっている品詞と、`-ly` が付いた後の働きを確認する。"
+        ],
+        "examples": [
+          "- `friend` + `-ly` → `friendly`（形容詞）",
+          "- `quick` + `-ly` → `quickly`（副詞）"
+        ]
+      }
+    },
+    {
+      "id": "egp.modifiers.so-such",
+      "title": "soとsuchの使い分け",
+      "domain": "modifiers",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/modifiers/so-such.md",
+      "scope": "高校英文法・程度を強めるsoとsuch",
+      "summary": {
+        "principle": "`so`は形容詞・副詞を、`such`は名詞句を強める。単数可算名詞では`such a/an + 形容詞 + 名詞`の語順にする。",
+        "judgmentConditions": [
+          "強められる中心が形容詞・副詞か、名詞句かを確認する。"
+        ],
+        "examples": [
+          "- `so difficult`",
+          "- `such a difficult question`"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.cannot-too",
+      "title": "cannot ... too の意味",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/negation-questions/cannot-too.md",
+      "scope": "高校英文法・cannot + 動詞 + too + 形容詞/副詞の慣用表現",
+      "summary": {
+        "principle": "`cannot ... too ~` は「どんなに〜してもしすぎることはない」という、程度に上限がないことを表す。これは比較級・最上級の比較ではなく、否定と `too` が組み合わさった慣用表現である。",
+        "judgmentConditions": [
+          "`cannot` と `too + 形容詞/副詞` の組み合わせを見つける。",
+          "「〜しすぎることはない」「いくら〜してもよい」と訳せるか確認する。"
+        ],
+        "examples": [
+          "- `You cannot be too careful when driving.`（運転するときは、どんなに注意してもしすぎることはない）"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.imperative-lets-tags",
+      "title": "命令文と Let's 文の付加疑問",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/negation-questions/imperative-lets-tags.md",
+      "scope": "高校英文法・命令文の will you? と Let's ... の shall we?",
+      "summary": {
+        "principle": "平叙文の付加疑問と異なり、命令文には `will you?` を付けて依頼をやわらげ、`Let's ...` の勧誘文には `shall we?` を付けて相手の同意を求める。主節の動詞の極性を反転させる作り方はこれらには当てはまらない。",
+        "judgmentConditions": [
+          "主節が平叙文か、命令文か、`Let's ...` の勧誘文かを確認する。",
+          "`Let's ...` で始まっていれば `shall we?` を選ぶ。",
+          "動詞の原形で始まる命令文であれば `will you?` を選ぶ。"
+        ],
+        "examples": [
+          "- 正例: `Let's take a short break, shall we?`",
+          "- 正例: `Phone me this evening, will you?`",
+          "- 正例: `Don't shout, will you?`(否定の命令文でも `will you?`)",
+          "- 対比例: `You like classical music, don't you?`(平叙文なので極性を反転させる)"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.indirect-question",
+      "title": "間接疑問文",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/negation-questions/indirect-question.md",
+      "scope": "初学者向け・名詞節の定義",
+      "summary": {
+        "principle": "間接疑問文は、疑問文を名詞節にしたものである。",
+        "judgmentConditions": [
+          "元になっている疑問文を確認する。",
+          "その疑問文が、名詞節として文の中に組み込まれているか確認する。"
+        ],
+        "examples": [
+          "- `I know [what he wants].`: `what he wants` が、疑問文を名詞節にした間接疑問文。"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.no-sooner-than",
+      "title": "no sooner ... than の倒置",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/negation-questions/no-sooner-than.md",
+      "scope": "高校英文法・2つの出来事の直後関係と倒置",
+      "summary": {
+        "principle": "`No sooner had S+過去分詞 ... than S+過去形 ...`は「〜するとすぐに…した」と、2つの出来事が直後に続けて起こったことを表す。`no sooner`が文頭に出るときは疑問文と同じ語順の倒置が必須で、前半の節には過去完了、`than`以下には過去形を使う。同じ意味を`hardly/scarcely had S 過去分詞 ... when/before S 過去形 ...`でも表せるが、こちらは`than`ではなく`when`または`before`を使う点が異なる。",
+        "judgmentConditions": [
+          "2つの出来事の時間差(直後)を表しているか、前半が`had + 過去分詞`(過去完了)になっているか、後半の接続語が`than`(no sooner)か`when/before`(hardly/scarcely)かを確認する。"
+        ],
+        "examples": [
+          "- 正例: `No sooner had the game started than the captain was taken ill.`",
+          "- 正例: `Hardly had we sat down when we were told to evacuate the building.`",
+          "- 対比例: `The game had no sooner started than the captain was taken ill.`(文中位置・倒置なし)"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.not-negation",
+      "title": "notを使った否定文の作り方",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/negation-questions/not-negation.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "`not` を使った否定文は、述語動詞がbe動詞か一般動詞か、助動詞が付いているかどうかで作り方を分ける。\n\n1. 述語動詞がbe動詞で、助動詞が付いていないときは、be動詞の後ろに `not` を置く。\n2. 述語動詞がbe動詞で、助動詞が付いているときは、助動詞の後ろに `not` を置く。\n3. 述語動詞が一般動詞で、助動詞が付いていないときは、`do` 助動詞を付け、`do` の後ろに `not` を置く。\n4. 述語動詞が一般動詞で、助動詞が付いているときは、助動詞の後ろに `not` を置く。",
+        "judgmentConditions": [
+          "述語動詞がbe動詞か一般動詞か確認する。",
+          "すでに助動詞があるか確認する。",
+          "助動詞がない一般動詞の場合は、時制・主語に応じて `do / does / did` を選ぶ。"
+        ],
+        "examples": [
+          "- `He is not tired.`",
+          "- `He will not be tired.`",
+          "- `He does not play tennis.`",
+          "- `He cannot play tennis.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.restrictive-adverb-inversion",
+      "title": "否定的な副詞の文頭倒置",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/negation-questions/restrictive-adverb-inversion.md",
+      "scope": "高校英文法・hardly、never、onlyなどの倒置",
+      "summary": {
+        "principle": "`hardly/never/seldom`など否定的・制限的な副詞句を強調して文頭に置くと、助動詞と主語を疑問文と同じ順に倒置する。",
+        "judgmentConditions": [
+          "文頭要素が否定的・制限的か、助動詞があるか、必要ならdoを補うかを確認する。"
+        ],
+        "examples": [
+          "- `Hardly had I arrived when the train left.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.scope",
+      "title": "否定の範囲",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/negation-questions/scope.md",
+      "scope": "高校英文法・not everyなどの部分否定",
+      "summary": {
+        "principle": "`not + every/all/both`は「すべて・両方が～というわけではない」という部分否定で、`no/none/neither`などの全否定とは異なる。",
+        "judgmentConditions": [
+          "notが述語全体を否定するか、全体数量を表す語の成立を否定するかを確認する。"
+        ],
+        "examples": [
+          "- `Not every student agreed.` = 全員が賛成したわけではない。"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.tag-questions",
+      "title": "付加疑問文の作り方",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/negation-questions/tag-questions.md",
+      "scope": "高校英文法・平叙文に対する付加疑問",
+      "summary": {
+        "principle": "付加疑問文は、平叙文の末尾に「主語(代名詞)+助動詞/be動詞」の短い疑問形を付け、確認や同意を求める表現である。主節が肯定文なら付加疑問は否定形に、主節が否定文なら付加疑問は肯定形にする(肯定→否定、否定→肯定)。主節の助動詞・be動詞をそのまま使い、それらがない一般動詞の文では`do/does/did`を使う。",
+        "judgmentConditions": [
+          "主節が肯定か否定かを確認し、付加疑問を逆の極性にする。",
+          "主節に助動詞・be動詞があるかを確認し、なければdo/does/didを補う。"
+        ],
+        "examples": [
+          "- 正例: `You like coffee, don't you?`(肯定→否定、一般動詞→doで受ける)",
+          "- 正例: `She isn't a teacher, is she?`(否定→肯定)",
+          "- 正例: `They have finished the work, haven't they?`(完了形のhaveをそのまま使う)"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.wh-questions",
+      "title": "疑問詞を使った疑問文の作り方",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/negation-questions/wh-questions.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "疑問詞を使う疑問文では、疑問詞を文頭に出し、その後ろを疑問文の語順にして、文末に `?` を付ける。ただし、疑問詞が主部に含まれるときは、普通の文と同じ語順にする。",
+        "judgmentConditions": [
+          "疑問詞が文中のどの要素を尋ねているか確認する。",
+          "疑問詞が主語ではない場合は、疑問詞の後ろを疑問文の語順にする。",
+          "疑問詞が主語の場合は、主語と助動詞を倒置しない。"
+        ],
+        "examples": [
+          "- 目的語を尋ねる: `What did he buy?`",
+          "- 場所を尋ねる: `Where does she live?`",
+          "- 主語を尋ねる: `Who came?`"
+        ]
+      }
+    },
+    {
+      "id": "egp.negation-questions.yes-no-questions",
+      "title": "疑問文の作り方",
+      "domain": "negation-questions",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/negation-questions/yes-no-questions.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "疑問文は、述語動詞がbe動詞か一般動詞か、助動詞が付いているかどうかで作り方を分ける。\n\n1. 述語動詞が「裸のbe動詞」のときは、be動詞を主語の前に出す。\n2. 述語動詞が「助動詞がついたbe動詞」のときは、助動詞を主語の前に出す。\n3. 述語動詞が「裸の一般動詞」のときは、`do` 助動詞を主語の前に置き、動詞を原形に変える。\n4. 述語動詞が「助動詞がついた一般動詞」のときは、助動詞を主語の前に出す。",
+        "judgmentConditions": [
+          "「裸のbe動詞」か、助動詞が付いたbe動詞か確認する。",
+          "「裸の一般動詞」か、助動詞が付いた一般動詞か確認する。",
+          "助動詞がない一般動詞では、時制・主語に応じて `do / does / did` を選ぶ。"
+        ],
+        "examples": [
+          "- `Is he tired?`",
+          "- `Will he be tired?`",
+          "- `Does he play tennis?`",
+          "- `Can he play tennis?`"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.absolute-participial-idioms",
+      "title": "慣用的な分詞構文(generally speaking等)",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nonfinite/absolute-participial-idioms.md",
+      "scope": "高校英文法・文の主語と一致しない、独立した分詞構文の慣用句",
+      "summary": {
+        "principle": "`generally speaking`(概して言えば)、`judging from ~`(〜から判断すると)、`considering ~ / considering that ...`(〜を考慮すると)、`given ~ / given that ...`(〜を踏まえると)などは、本来の分詞構文の規則(主節の主語と分詞の意味上の主語が一致する)には従わない、文全体を修飾する慣用的な導入句として定着している。文の主語が何であっても、これらの句はそのままの形で使う。",
+        "judgmentConditions": [
+          "分詞(-ing/-ed)の直後に来る名詞・節が、主節の主語と一致しなくても、これらの慣用句であれば許容されることを確認する。"
+        ],
+        "examples": [
+          "- 正例: `Generally speaking, women live longer than men.`",
+          "- 正例: `Judging from the look on his face, he must have failed the test.`",
+          "- 正例: `Given that it was his first attempt, he did remarkably well.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.bare-infinitive",
+      "title": "原形不定詞",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/bare-infinitive.md",
+      "scope": "初学者向け・toなしの形",
+      "summary": {
+        "principle": "原形不定詞は、`to` が付かない不定詞である。",
+        "judgmentConditions": [
+          "不定詞として使われている原形動詞か確認する。",
+          "その前に `to` が付いていないか確認する。"
+        ],
+        "examples": [
+          "- `go`: `to` が付かない原形不定詞の形。",
+          "- `run`: `to` が付かない原形不定詞の形。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.be-to-infinitive",
+      "title": "be to不定詞",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/be-to-infinitive.md",
+      "scope": "初学者向け・予定や取り決め",
+      "summary": {
+        "principle": "`be to不定詞` は、「これから～することになっている」という意味を表す。",
+        "judgmentConditions": [
+          "`be + to + 原形` の形になっているか確認する。",
+          "これから行う予定・取り決めとして読めるか確認する。"
+        ],
+        "examples": [
+          "- `The students are to meet at nine.`: 生徒たちは9時に集まることになっている。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.degree-result-infinitive-patterns",
+      "title": "too ... to / enough to / so ... as to",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nonfinite/degree-result-infinitive-patterns.md",
+      "scope": "高校英文法・程度と結果を表す不定詞表現",
+      "summary": {
+        "principle": "`too + 形容詞/副詞 + (for 人) + to不定詞`は「(人にとって)〜すぎて…できない」という否定的な結果を表す。`形容詞/副詞 + enough + (for 人) + to不定詞`は「…するのに十分〜だ」という肯定的な結果を表す(enoughは形容詞・副詞の後ろに置く)。`so + 形容詞/副詞 + as to不定詞`は「とても〜なので…する」という結果を表し、`so ... that ...`の書き換えに近い。",
+        "judgmentConditions": [
+          "結果が否定的(できない)か肯定的(できる)かを確認し、`too ... to`と`enough to`を区別する。",
+          "`enough`が形容詞・副詞の前ではなく後ろに置かれているかを確認する。"
+        ],
+        "examples": [
+          "- 正例: `This box is too heavy for me to carry.`",
+          "- 正例: `The bag is light enough to carry.`",
+          "- 正例: `She was so kind as to help me.`",
+          "- 対比例: `This box is enough heavy to carry.`(誤り。enoughは形容詞の後ろ)"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.gerund-subject",
+      "title": "動名詞の意味上の主語",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/gerund-subject.md",
+      "scope": "初学者向け・所有格と目的格",
+      "summary": {
+        "principle": "動名詞の意味上の主語を動名詞の前に付けるときは、次の形にする。\n\n- 意味上の主語が代名詞のときは、所有格または目的格の代名詞をそのまま付ける。\n- 意味上の主語が名詞のときは、所有格またはそのままの形で付ける。",
+        "judgmentConditions": [
+          "動名詞が表す動作・状態の主体となる意味上の主語を確認する。",
+          "意味上の主語が代名詞か名詞か確認する。",
+          "代名詞なら所有格または目的格、名詞なら所有格またはそのままの形を選ぶ。"
+        ],
+        "examples": [
+          "- 代名詞・所有格: `his singing`",
+          "- 代名詞・目的格: `him singing`",
+          "- 名詞・所有格: `Tom's singing`",
+          "- 名詞・そのままの形: `Tom singing`"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.infinitive-adjectival-use",
+      "title": "to不定詞が形容詞的用法になる条件",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/infinitive-adjectival-use.md",
+      "scope": "初学者向け・名詞との関係",
+      "summary": {
+        "principle": "`to` 不定詞が名詞を説明する形容詞的用法になる条件は、次の3つである。\n\n1. SVの関係。\n2. VOの関係。\n3. 同格関係。",
+        "judgmentConditions": [
+          "`to` 不定詞が、直前の名詞を説明しているか確認する。",
+          "その名詞が、`to` 不定詞内の動詞の主語（SV）、目的語（VO）、または同格として読めるか確認する。"
+        ],
+        "examples": [
+          "- SVの関係: `the first person to arrive`（その人が arrive する）。",
+          "- VOの関係: `a book to read`（その本を read する）。",
+          "- 同格関係: `the plan to leave early`（`the plan` と「早く出発すること」が同格）。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.infinitive-form",
+      "title": "不定詞の形",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/infinitive-form.md",
+      "scope": "初学者向け・形の定義",
+      "summary": {
+        "principle": "不定詞は、原形動詞の前に `to` を付けた形である。",
+        "judgmentConditions": [
+          "動詞が原形になっているか確認する。",
+          "その原形動詞の前に `to` が付いているか確認する。"
+        ],
+        "examples": [
+          "- `to run`: 原形動詞 `run` の前に `to` が付いた形。",
+          "- `to study`: 原形動詞 `study` の前に `to` が付いた形。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.infinitive-negation",
+      "title": "不定詞の否定形",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/infinitive-negation.md",
+      "scope": "初学者向け・notの位置",
+      "summary": {
+        "principle": "不定詞を否定形にするときは、`not` を `to` の直前に置く。",
+        "judgmentConditions": [
+          "否定したい不定詞の範囲を確認する。",
+          "`not + to + 原形` の語順になっているか確認する。"
+        ],
+        "examples": [
+          "- `I decided not to go.`: 行かないことを決めた。",
+          "- `She tried not to laugh.`: 彼女は笑わないようにした。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.infinitive-purpose",
+      "title": "目的を表すto不定詞",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nonfinite/infinitive-purpose.md",
+      "scope": "高校英文法・副詞的用法の目的",
+      "summary": {
+        "principle": "`to + 原形`は、主節の動作を行う目的を「～するために」と表せる。",
+        "judgmentConditions": [
+          "不定詞が名詞を説明するのではなく、主節の動作の目的を示すか確認する。"
+        ],
+        "examples": [
+          "- `I went to the library to study.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.infinitive-semantic-subject-of",
+      "title": "It is + 人の性質を表す形容詞 + of 人 + to do",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nonfinite/infinitive-semantic-subject-of.md",
+      "scope": "高校英文法・kind/nice/silly など人の性質を評価する形容詞での of + 人",
+      "summary": {
+        "principle": "`It is + 形容詞 + of + 人 + to do` の形では、`of` の後ろの人が `to不定詞` の意味上の主語になる。この形を取るのは、`kind`、`nice`、`good`、`clever`、`wise`、`careless`、`silly`、`rude` など、**その人の性質・態度を評価する**形容詞である。行為の難易や必要性を述べる形容詞では `of` ではなく `for` を使う。",
+        "judgmentConditions": [
+          "形容詞が、行為そのものの難易・重要性を述べているのか、**行為をした人** の性質を評価しているのかを確認する。人を評価していれば `of`。",
+          "`人 is + 形容詞 + to do` に言い換えられるかを確認する。`It is kind of you to help me.` ↔ `You are kind to help me.` のように成り立てば `of`。",
+          "`It is important for him to study.` を `He is important to study.` とは言い換えられない。言い換えが成り立たなければ `for`。"
+        ],
+        "examples": [
+          "- 正例: `It's very kind of you to come with me to the embassy.`(Grammaringの用例)",
+          "- 正例: `It's nice of you to come and see me.`(来てくれたあなたが親切だ)",
+          "- 正例: `It was careless of him to leave the door open.`",
+          "- 対比例: `It's easy for an outsider to say what should be done in such a situation.`(Grammaringの用例。行為の難易なので `for`)",
+          "- 対比例: `It is important for him to study.`(重要なのは行為であって、彼の性質ではない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.infinitive-semantic-subject",
+      "title": "不定詞の意味上の主語",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/infinitive-semantic-subject.md",
+      "scope": "初学者向け・for 人 to ~",
+      "summary": {
+        "principle": "`for 人 to ~` は、「人が～する」という意味で、不定詞の動作主を表す。",
+        "judgmentConditions": [
+          "`to` 不定詞が表す動作・状態の主体を確認する。",
+          "`for` の後ろの人が、その不定詞の動作主になっているか確認する。"
+        ],
+        "examples": [
+          "- `It is important for him to study.`: `him` が `to study` の意味上の主語で、「彼が勉強すること」が重要である。",
+          "- `For Tom to leave now would be a mistake.`: `Tom` が `to leave` の意味上の主語。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.initial-to-infinitive-use",
+      "title": "文頭のtoの判別",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/initial-to-infinitive-use.md",
+      "scope": "初学者向け・名詞的用法と副詞的用法",
+      "summary": {
+        "principle": "文頭の `to` 不定詞は、次の目安で用法を判別する。\n\n- 主語になる → 名詞的用法。\n- 主語にならない → 副詞的用法。",
+        "judgmentConditions": [
+          "文頭の `to + 原形` のまとまりが、文の主語になっているか確認する。",
+          "主語になっていなければ、主節全体を説明する副詞的用法として確認する。"
+        ],
+        "examples": [
+          "- `To read books is fun.`: 文頭の `To read books` が主語なので名詞的用法。",
+          "- `To save time, I took a taxi.`: `To save time` は主語ではなく、主節を説明する副詞的用法。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.nonfinite-verbs",
+      "title": "準動詞",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/nonfinite-verbs.md",
+      "scope": "初学者向け・準動詞の基本定義",
+      "summary": {
+        "principle": "準動詞は、動詞の他に別の品詞を兼ねている動詞である。",
+        "judgmentConditions": [
+          "動詞の性質をもっているか確認する。",
+          "同時に、動詞以外の別の品詞の働きもしているか確認する。"
+        ],
+        "examples": [
+          "- 具体例は、各準動詞の原則で整理する。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.participial-construction-formation",
+      "title": "分詞構文の成り立ち",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/participial-construction-formation.md",
+      "scope": "初学者向け・形成手順",
+      "summary": {
+        "principle": "分詞構文は、次の手順で作る。\n\n1. 接続詞を消す。\n2. 従属節の主語も消す。ただし、主節の主語と同じ場合に限る。主語が異なる場合は、そのまま残す。\n3. 従属節の動詞を分詞（`-ing`）に変える。`Being` の場合は省略できる。",
+        "judgmentConditions": [
+          "元の文に、主節と従属節があるか確認する。",
+          "従属節と主節の主語が同じか確認する。",
+          "接続詞・主語・動詞のどれを省略または変形したか確認する。"
+        ],
+        "examples": [
+          "- `Because she was tired, she went home.` → `Being tired, she went home.` → `Tired, she went home.`",
+          "- `When the weather was fine, we went out.` → `The weather being fine, we went out.`: 主節と従属節の主語が異なるため、`the weather` を残す。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.participial-construction-meaning",
+      "title": "分詞構文の意味",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/participial-construction-meaning.md",
+      "scope": "初学者向け・位置による読み方",
+      "summary": {
+        "principle": "分詞構文は、置かれる位置に応じて、文脈に合う意味を考える。\n\n1. 文頭: `-ing~, SV` → 文脈に応じた適当な意味。\n2. 文中: `S, -ing~, V` → 文脈に応じた適当な意味。\n3. 文末: `SV(,) -ing~` → 「そして～」「～しながら」。",
+        "judgmentConditions": [
+          "分詞構文が文頭・文中・文末のどこにあるか確認する。",
+          "主節との時間・理由・付帯状況などの関係を文脈から確認する。",
+          "文末では「そして～」「～しながら」の読み方が成り立つか確認する。"
+        ],
+        "examples": [
+          "- 文頭: `Walking down the street, I met Tom.`: 文脈に応じて「歩いていると／歩きながら」と読む。",
+          "- 文中: `She, smiling happily, opened the door.`: `smiling happily` が主節に付加的な状況を示す。",
+          "- 文末: `She left the room, smiling.`: 「そして笑った」「笑いながら」と読む。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.participial-construction-negation",
+      "title": "分詞構文の否定形",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/participial-construction-negation.md",
+      "scope": "初学者向け・notの位置",
+      "summary": {
+        "principle": "分詞構文を否定形にするときは、`not` を `-ing` の前に置く。",
+        "judgmentConditions": [
+          "分詞構文で否定したい動作・状態を確認する。",
+          "`not` が分詞（`-ing`）の前に置かれているか確認する。"
+        ],
+        "examples": [
+          "- `Not knowing the answer, I stayed silent.`: 答えを知らなかったので、私は黙っていた。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.participial-construction-tense",
+      "title": "分詞構文の時制",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/participial-construction-tense.md",
+      "scope": "初学者向け・主節との時間関係",
+      "summary": {
+        "principle": "分詞構文の時制は、主節との時間関係で次のように表す。\n\n- 主節と同じ時制 → `-ing` のまま。\n- 主節より1つ前 → `having + p.p.`。",
+        "judgmentConditions": [
+          "分詞構文の動作・状態が、主節と同時か、主節より前か確認する。",
+          "同時なら `-ing`、先行なら `having + p.p.` を選ぶ。"
+        ],
+        "examples": [
+          "- 同時: `Walking down the street, I saw Tom.`: 歩いているとき、トムを見た。",
+          "- 先行: `Having finished my homework, I went out.`: 宿題を終えてから、外出した。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.participles-as-adjectives",
+      "title": "分詞の能動関係と受動関係",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nonfinite/participles-as-adjectives.md",
+      "scope": "高校英文法・名詞修飾と補語の分詞",
+      "summary": {
+        "principle": "現在分詞は修飾される名詞が動作・感情を引き起こす側、過去分詞は動作を受ける側やその結果状態を表す。",
+        "judgmentConditions": [
+          "修飾される名詞が動作をする側か、される側かを確認する。"
+        ],
+        "examples": [
+          "- `an interesting book` / `interested students`",
+          "- `a window broken by the storm`"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.perfect-infinitive",
+      "title": "完了不定詞",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/perfect-infinitive.md",
+      "scope": "初学者向け・主節より前の時制",
+      "summary": {
+        "principle": "`to have p.p.` は、主節より一つ前の時制を表す。",
+        "judgmentConditions": [
+          "`to have + p.p.` の形になっているか確認する。",
+          "不定詞が表す動作・状態が、主節より前に起こっているか確認する。"
+        ],
+        "examples": [
+          "- `He seems to have left.`: `left` は、主節の `seems` より前に起きたと考える。",
+          "- `She was happy to have finished the work.`: 仕事を終えたことが、主節の状態より前である。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.result-infinitive",
+      "title": "結果を表すto不定詞(woke up to find / only to find)",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nonfinite/result-infinitive.md",
+      "scope": "高校英文法・副詞的用法のうち、主節の動作の後に起きた結果を表すto不定詞",
+      "summary": {
+        "principle": "`to不定詞` は、主節の動作の後に実際に起きたことを表す「結果」の副詞的用法を持つ。この用法では、`to不定詞` の内容は主節の動作より後に起こり、主節の動作の目的ではない。`only + to不定詞` は、期待に反する結果・残念な結果を表す。",
+        "judgmentConditions": [
+          "`to不定詞` の内容が、主節の動作より **後** に起きた事実かどうかを確認する。後に起きた事実なら結果、これから目指すことなら[目的](./infinitive-purpose.md)。",
+          "主節が `wake up`、`grow up`、`live`、`arrive`、`come` など、意図的に狙えない結末を導く動詞かどうかを確認する。",
+          "`only to` があれば、期待に反する結果を表す合図として扱う。",
+          "主節と `to不定詞` を `and + 過去形` で並べても意味がほぼ変わらないかを確認する(結果用法なら変わらない)。"
+        ],
+        "examples": [
+          "- 正例: `I woke up to find myself lying on the bench.`(目を覚ましてみると、ベンチに寝ていた。)",
+          "- 正例: `She arrived home to receive a letter from her bank.`(Grammaringの用例)",
+          "- 正例: `Do you want to live to be a hundred?`(Grammaringの用例)",
+          "- 正例: `I went back to the shop only to find that it had closed for good.`(Grammaringの用例。期待に反する結果)",
+          "- 対比例: `I got up early to catch the first train.`(始発に乗るという目的。結果用法ではない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.suggest-complements",
+      "title": "suggestの後ろの形",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nonfinite/suggest-complements.md",
+      "scope": "高校英文法・suggestのthat節と動名詞",
+      "summary": {
+        "principle": "`suggest`は提案内容を`that S (should) + 原形`または動名詞で表せるが、`suggest + 人 + to不定詞`とはしない。",
+        "judgmentConditions": [
+          "行為者を明示するthat節か、行為だけを示す動名詞かを確認する。"
+        ],
+        "examples": [
+          "- `The doctor suggested that he should rest.`",
+          "- `She suggested taking a taxi.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.to-infinitive-or-preposition",
+      "title": "toの判別",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nonfinite/to-infinitive-or-preposition.md",
+      "scope": "初学者向け・to不定詞と前置詞",
+      "summary": {
+        "principle": "`to` には、次の2つの用法がある。\n\n1. `to` 不定詞: `to + 原形`\n2. 前置詞 `to`: `to + 名詞（代名詞・動名詞）`",
+        "judgmentConditions": [
+          "`to` の直後が原形動詞か、名詞相当語か確認する。",
+          "`to + 原形` なら不定詞、`to + 名詞・代名詞・動名詞` なら前置詞として確認する。"
+        ],
+        "examples": [
+          "- `to study`: `to + 原形` なので `to` 不定詞。",
+          "- `to the station`: `to + 名詞` なので前置詞。",
+          "- `to him`: `to + 代名詞` なので前置詞。",
+          "- `to studying`: `to + 動名詞` なので前置詞。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.verb-complement-ing-or-infinitive",
+      "title": "動詞の後ろの動名詞と不定詞",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nonfinite/verb-complement-ing-or-infinitive.md",
+      "scope": "高校英文法・動詞ごとの目的語と意味差",
+      "summary": {
+        "principle": "動詞の後ろが動名詞かto不定詞かは、前の動詞の語法で決まる。両方を取る動詞では、`remember/stop`など形によって意味が変わる場合がある。",
+        "judgmentConditions": [
+          "前の動詞が要求する形と、行為がすでに起きたか目的として後に起こるかを確認する。"
+        ],
+        "examples": [
+          "- `enjoy reading`",
+          "- `remember locking the door` / `remember to lock the door`",
+          "- `stop working` / `stop to rest`"
+        ]
+      }
+    },
+    {
+      "id": "egp.nonfinite.verb-object-to-infinitive",
+      "title": "動詞+目的語+to不定詞(advise/want/tell/askなど)",
+      "domain": "nonfinite",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nonfinite/verb-object-to-infinitive.md",
+      "scope": "高校英文法・advise/want/tell/askなどが取る「動詞+目的語+to不定詞」",
+      "summary": {
+        "principle": "`advise`、`want`、`tell`、`ask` などの動詞は、目的語(人)の後ろに `to不定詞` を置き、「〈目的語〉に～する(よう)…する」という意味を表す。この目的語は、`to不定詞` の意味上の主語を兼ねる。",
+        "judgmentConditions": [
+          "動詞の直後に人などの目的語があるか確認する。",
+          "その目的語の後ろに `to + 原形` が続くか確認する。",
+          "目的語が、後ろの `to不定詞` が表す動作をする主体になっているか確認する。"
+        ],
+        "examples": [
+          "- 正例: `I want you to come.`(あなたに来てほしい。)",
+          "- 正例: `She advised him to see a doctor.`(彼女は彼に医者に診てもらうよう助言した。)",
+          "- 正例: `The teacher wants her to do the exams again next year.`(Cambridge Dictionaryの用例)",
+          "- 対比例: `The teacher made us stay.`(`make` は目的語の後ろが原形)"
+        ]
+      }
+    },
+    {
+      "id": "egp.nouns-determiners-pronouns.definite-article-the",
+      "title": "定冠詞 the",
+      "domain": "nouns-determiners-pronouns",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nouns-determiners-pronouns/definite-article-the.md",
+      "scope": "初学者向け・共有認識",
+      "summary": {
+        "principle": "定冠詞 `the` は、話し手・聞き手（その場に居合わせた人を含む）が共通して認識できるものを表す名詞の前に付ける。",
+        "judgmentConditions": [
+          "話し手と聞き手が、どのものを指しているか共通して分かるか確認する。"
+        ],
+        "examples": [
+          "- `Please close the door.`: その場で共通に認識できるドアを指す。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nouns-determiners-pronouns.demonstrative-substitution",
+      "title": "反復を避けるthat of / those of",
+      "domain": "nouns-determiners-pronouns",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nouns-determiners-pronouns/demonstrative-substitution.md",
+      "scope": "高校英文法・比較文での名詞句の代用",
+      "summary": {
+        "principle": "すでに出た名詞句の繰り返しを避けるため、`that of + 名詞`(単数名詞の代用)、`those of + 名詞`(複数名詞の代用)を使う。特に比較文で「AのXとBのX」を比べるときによく使われる。",
+        "judgmentConditions": [
+          "代用する名詞が単数か複数かで`that`か`those`かを選ぶ。",
+          "代名詞`it/they`ではなく`that of/those of`が必要なのは、後ろに`of + 名詞`を伴い、限定された名詞句を作り直す場合である。"
+        ],
+        "examples": [
+          "- 正例: `The population of Tokyo is larger than that of Osaka.`(that=the population)",
+          "- 正例: `The customs of this country are different from those of mine.`(those=the customs)",
+          "- 対比例: `The population of Tokyo is larger than it.`(itはof+名詞を続けられないため不可)"
+        ]
+      }
+    },
+    {
+      "id": "egp.nouns-determiners-pronouns.indefinite-article",
+      "title": "不定冠詞 a / an",
+      "domain": "nouns-determiners-pronouns",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nouns-determiners-pronouns/indefinite-article.md",
+      "scope": "初学者向け・1つを取り出す表現",
+      "summary": {
+        "principle": "不定冠詞 `a / an` は、たくさんある同種のものの中から1つを表す。",
+        "judgmentConditions": [
+          "指しているものが、特定の1つとして共有認識されているか、同種のものの中の1つとして導入されているかを確認する。"
+        ],
+        "examples": [
+          "- `I saw a dog.`: 多くの犬の中の1匹を導入している。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nouns-determiners-pronouns.other-another",
+      "title": "otherとanotherの使い分け",
+      "domain": "nouns-determiners-pronouns",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nouns-determiners-pronouns/other-another.md",
+      "scope": "高校英文法・another、the other、others",
+      "summary": {
+        "principle": "不特定の「もう一つ」は`another + 単数名詞`、二つのうち残る一つは`the other`、名詞を省略した複数の「他のもの」は`others`で表す。",
+        "judgmentConditions": [
+          "一つか複数か、特定の残りか不特定の追加か、後ろに名詞があるかを確認する。"
+        ],
+        "examples": [
+          "- `another cup`",
+          "- `one ... the other`",
+          "- `Some agree; others disagree.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.nouns-determiners-pronouns.quantifiers",
+      "title": "可算性と数量表現",
+      "domain": "nouns-determiners-pronouns",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nouns-determiners-pronouns/quantifiers.md",
+      "scope": "高校英文法・many/much、few/little、fewer/less",
+      "summary": {
+        "principle": "複数可算名詞には`many/few/a few/fewer`、不可算名詞には`much/little/a little/less`を使う。冠詞`a`の有無で、少量を肯定的に見るか不足として見るかが変わる。",
+        "judgmentConditions": [
+          "名詞が複数可算か不可算か、量を肯定的に示すか不足を示すかを確認する。"
+        ],
+        "examples": [
+          "- `many books` / `much information`",
+          "- `a few friends` / `few friends`"
+        ]
+      }
+    },
+    {
+      "id": "egp.nouns-determiners-pronouns.reciprocal-pronouns",
+      "title": "相互代名詞 each other / one another",
+      "domain": "nouns-determiners-pronouns",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nouns-determiners-pronouns/reciprocal-pronouns.md",
+      "scope": "高校英文法・相互代名詞と再帰代名詞の意味の違い",
+      "summary": {
+        "principle": "`each other`と`one another`は「お互い」という相互の関係を表す相互代名詞で、複数の主語が互いに同じ行為をし合うことを示す。所有格は`each other's / one another's`になる。意味の近い`themselves`(再帰代名詞)は「自分自身」を表し、相互の関係ではなく各自が自分に対して行為をすることを示すため、意味が異なる。",
+        "judgmentConditions": [
+          "主語同士がお互いに行為をし合っている(相互)のか、各自が自分自身に対して行為をしている(再帰)のかを確認する。"
+        ],
+        "examples": [
+          "- 正例: `They blamed each other for the mistake.`(お互いを非難した=相互)",
+          "- 対比例: `They blamed themselves for the mistake.`(自分自身を責めた=再帰)",
+          "- 正例: `They respect each other's opinions.`(each other's+名詞=所有格)"
+        ]
+      }
+    },
+    {
+      "id": "egp.nouns-determiners-pronouns.the-adjective-group",
+      "title": "the＋形容詞で表す「〜な人々」",
+      "domain": "nouns-determiners-pronouns",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/nouns-determiners-pronouns/the-adjective-group.md",
+      "scope": "高校英文法・社会の中の集団を表す the＋形容詞と複数扱い",
+      "summary": {
+        "principle": "社会の中の特定の集団を表すとき、`the＋形容詞` の形で「〜な人々」という意味を表す。この形は複数の人々を指し、動詞や代名詞も複数として扱う。",
+        "judgmentConditions": [
+          "形容詞の後ろに名詞が置かれていないかを確認する。",
+          "指しているのが一人ではなく、その性質を持つ人々の集まりかを確認する。",
+          "述語動詞が複数に一致しているかを確認する。"
+        ],
+        "examples": [
+          "- 正例: `The rich are not always happier than the poor.`(動詞は複数形 `are`)",
+          "- 正例: `The young need to be encouraged and supported in society.`",
+          "- 対比例: `Some rich people live here.`(`some` は「一部の」であり、集団全体を指さない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.nouns-determiners-pronouns.the-plural-group",
+      "title": "the＋複数形",
+      "domain": "nouns-determiners-pronouns",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nouns-determiners-pronouns/the-plural-group.md",
+      "scope": "初学者向け・特定集団",
+      "summary": {
+        "principle": "`the＋複数形` は、特定の集団を表す。",
+        "judgmentConditions": [
+          "複数の名詞が、文脈上どの集団を指すか特定できるか確認する。"
+        ],
+        "examples": [
+          "- `The students in this class are practicing.`: このクラスの特定の生徒たちを指す。"
+        ]
+      }
+    },
+    {
+      "id": "egp.nouns-determiners-pronouns.uncountable-noun",
+      "title": "不可算名詞",
+      "domain": "nouns-determiners-pronouns",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/nouns-determiners-pronouns/uncountable-noun.md",
+      "scope": "初学者向け・形を捉える目安",
+      "summary": {
+        "principle": "不可算名詞は、ハッキリとした形がない名詞を表す。",
+        "judgmentConditions": [
+          "ものを一つ、二つと個体として数えるのではなく、まとまりや物質、概念として捉えているか確認する。"
+        ],
+        "examples": [
+          "- `water` や `information` は、個体を一つずつ数える名詞として扱わない。"
+        ]
+      }
+    },
+    {
+      "id": "egp.reported-speech.imperative-to-infinitive",
+      "title": "命令文の話法(tell/ask + 人 + to不定詞)",
+      "domain": "reported-speech",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/reported-speech/imperative-to-infinitive.md",
+      "scope": "高校英文法・命令文の直接話法から間接話法への転換",
+      "summary": {
+        "principle": "命令文を間接話法に変えるときは、`tell/ask + 人 + to不定詞` の形にする。命令内容を否定するときは、to不定詞の直前に `not` を置く。",
+        "judgmentConditions": [
+          "直接話法が命令文(動詞の原形で始まる文、または `Don't` で始まる否定命令文)かを確認する。",
+          "命令の相手を目的語にして、`tell`/`ask` などの伝達動詞の後ろに置く。",
+          "命令内容を to不定詞にする。否定の場合は `not` を `to` の直前に置く。"
+        ],
+        "examples": [
+          "- 正例: `The doctor said to me, \"Stop smoking!\" → The doctor told me to stop smoking.`",
+          "- 否定の正例: `\"Don't move!\" → The man warned us not to move.`",
+          "- 対比例: `The teacher told us that be quiet.`(`that`節にするなら主語と完全な述語動詞が必要で、原形のままでは不完全)"
+        ]
+      }
+    },
+    {
+      "id": "egp.reported-speech.person-shift",
+      "title": "話法の転換に伴う人称の変化",
+      "domain": "reported-speech",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/reported-speech/person-shift.md",
+      "scope": "高校英文法・直接話法から間接話法への人称代名詞の変換",
+      "summary": {
+        "principle": "直接話法を間接話法に変えるときは、代名詞・所有格などを、発言者・聞き手から見た人称ではなく、その話を伝える人物(伝達者)から見た人称に置き換える。ただし、伝達者自身がもとの発言者や聞き手と同一人物である場合、その人称は変わらない。",
+        "judgmentConditions": [
+          "直接話法の中の代名詞が、発言者・聞き手・第三者のどれを指しているかを確認する。",
+          "間接話法を述べる伝達者から見て、その人物をどの人称で呼ぶかを確認する。",
+          "伝達者自身が発言者・聞き手と同一人物の場合は、人称を変えない。"
+        ],
+        "examples": [
+          "- 正例: `Bob said, \"I enjoy working in my garden.\" → Bob said that he enjoyed working in his garden.`",
+          "- 対比例(伝達者自身の発言): `I said, \"I'm working on my thesis.\" → I told her that I was working on my thesis.`(人称は変わらない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.reported-speech.time-place-adverb-shift",
+      "title": "話法の転換に伴う時・場所を表す語の変化",
+      "domain": "reported-speech",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/reported-speech/time-place-adverb-shift.md",
+      "scope": "高校英文法・today/tomorrow/yesterday/now/here等の間接話法での書き換え",
+      "summary": {
+        "principle": "直接話法を間接話法に変えるとき、話す時点・場所を基準にした時・場所を表す語は、伝える時点・場所を基準にしても同じ内容を指すように、対応する語に置き換える。",
+        "judgmentConditions": [
+          "直接話法の中に、話す時点・場所を基準にした時・場所を表す語(`today`, `tomorrow`, `yesterday`, `now`, `here`, `this`/`these`, `ago` など)があるかを確認する。",
+          "伝える時点・場所が、発言した時点・場所と異なるかを確認する。異なる場合は対応する語に置き換える。"
+        ],
+        "examples": [
+          "- 正例: `\"I'm planning to do it today,\" she said. → She told me she was planning to do it that day.`(発言と異なる日に伝える場合)",
+          "- 対比例: 発言と同じ日のうちに伝える場合は、`today` のままでよい。"
+        ]
+      }
+    },
+    {
+      "id": "egp.reported-speech.universal-truth-present-tense",
+      "title": "普遍の真理・不変の事実と時制の一致の例外",
+      "domain": "reported-speech",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/reported-speech/universal-truth-present-tense.md",
+      "scope": "高校英文法・間接話法における時制の一致の例外",
+      "summary": {
+        "principle": "間接話法で主節の述語動詞が過去形であっても、いつの時代でも変わらない普遍の真理・一般的事実を表す名詞節内の動詞は、時制の一致を受けず現在形のまま使う。",
+        "judgmentConditions": [
+          "名詞節の内容が、話す時点に関わらず常に成り立つ普遍的な真理・一般的事実かを確認する。",
+          "主節の述語動詞が過去形であることを確認する。",
+          "名詞節内の動詞が現在形のまま保たれているかを確認する。"
+        ],
+        "examples": [
+          "- 正例: `The teacher said that the Earth revolves around the sun.`",
+          "- 対比例: `He said that he was tired.`(一時的な状態は時制の一致どおり過去形にそろえる)"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.cleft-sentence",
+      "title": "強調構文(It is/was ... who/that)の形",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/sentence-structure/cleft-sentence.md",
+      "scope": "高校英文法・It is/was + 強調語句 + who/that ...の形",
+      "summary": {
+        "principle": "文中の1つの要素(主語・目的語・副詞的要素など)を際立たせるとき、`It is/was + 強調する語句 + who/that ...`の形で、1つの内容を2つの節に分けて示せる(cleft sentence)。`It`は具体的な内容を指さず、`who/that`節には話し手と聞き手がすでに了解している情報を置く。",
+        "judgmentConditions": [
+          "`It is/was`の直後に置かれた語句が、後続の`who/that`節の主語・目的語・副詞的要素のどれに当たるかを確認する。",
+          "`It`が[[dummy-it]](形式主語)のように後ろのto不定詞句・that節の内容そのものを指しているのではなく、`who/that`節を除いても意味の通る強調語句を指しているかを確認する。"
+        ],
+        "examples": [
+          "- 正例: `It was Tom who broke the window.`(主語Tomを強調)",
+          "- 正例: `It was your sister (that) I met!`(目的語your sisterを強調。thatは口語で省略可)",
+          "- 正例: `Is it August that you are going on holiday?`(時を表す副詞的要素を強調)",
+          "- 対比例: `It is difficult to learn a new language.`(形式主語。Itは後ろのto不定詞句の内容を指す。強調構文ではない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.complement",
+      "title": "補語の基本的な働き",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/complement.md",
+      "scope": "初学者向け・形容詞補語と名詞補語",
+      "summary": {
+        "principle": "- 補語は、動詞の助けを借りて「主語である名詞」を説明する形容詞である。\n- 補語は、動詞の助けを借りて「動詞の目的語である名詞」を説明する形容詞である。\n- 補語は、前置詞が付いていなくて、「主語」とイコールになる名詞である。\n- 補語は、前置詞が付いていなくて、「動詞の目的語」とイコールになる名詞である。",
+        "judgmentConditions": [
+          "動詞と補語の組み合わせで、主語または目的語の内容・性質を説明しているか確認する。",
+          "形容詞が主語または目的語である名詞を説明しているか確認する。",
+          "名詞が前置詞なしで主語または動詞の目的語とイコールになるか確認する。"
+        ],
+        "examples": [
+          "- `She is kind.`: `kind` が主語 `She` を説明する。",
+          "- `They made him happy.`: `happy` が目的語 `him` を説明する。",
+          "- `He became a teacher.`: `a teacher` が主語 `He` とイコールになる名詞である。",
+          "- `They elected him president.`: `president` が目的語 `him` とイコールになる名詞である。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.dummy-it",
+      "title": "形式主語 it",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/sentence-structure/dummy-it.md",
+      "scope": "高校英文法・to不定詞やthat節を後ろに置く形式主語",
+      "summary": {
+        "principle": "長いto不定詞句やthat節を主語内容とするとき、形式上の主語`it`を先に置き、内容を後ろへ回せる。",
+        "judgmentConditions": [
+          "`it`が具体物を指さず、後ろの句・節が内容上の主語になっているか確認する。"
+        ],
+        "examples": [
+          "- `It is important to check the answer.` = `To check the answer is important.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.exclamatory-sentences",
+      "title": "感嘆文(What/How)の形",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/sentence-structure/exclamatory-sentences.md",
+      "scope": "高校英文法・What+名詞とHow+形容詞/副詞の語順",
+      "summary": {
+        "principle": "感嘆文は驚きや強い感情を表す文で、`What (a/an) + 形容詞 + 名詞 + S + V!`または`How + 形容詞/副詞 + S + V!`の形を取る。`What`は後ろに名詞(を含む句)を、`How`は後ろに形容詞または副詞のみを続け、名詞を直接続けない点で区別する。文末の`S+V`は省略されることも多い。",
+        "judgmentConditions": [
+          "感嘆の対象が名詞句(a beautiful flower)か、形容詞・副詞単体(beautiful/fast)かを確認する。"
+        ],
+        "examples": [
+          "- 正例: `What a beautiful flower this is!`",
+          "- 正例: `How beautiful this flower is!`",
+          "- 対比例: `How a beautiful flower this is!`(誤り。Howの後ろに名詞は続けない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.interrogative-to-infinitive",
+      "title": "疑問詞+to不定詞",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/sentence-structure/interrogative-to-infinitive.md",
+      "scope": "高校英文法・know/decide/wonderなどの目的語になる名詞句",
+      "summary": {
+        "principle": "`what/how/where/when/which + to不定詞`は、1つのまとまった名詞句として動詞の目的語になる(例: `know what to do`)。意味は「何を〜すべきか」のように、話者にとっての選択や行動を間接的に示す。`why`はこの形では使わない。",
+        "judgmentConditions": [
+          "疑問詞の直後が`to + 動詞の原形`になっているかを確認する。",
+          "文全体の中でこの句が、動詞(know, decide, wonder, show など)の目的語として機能しているかを確認する。"
+        ],
+        "examples": [
+          "- 正例: `I don't know what to say.`",
+          "- 正例: `Please tell me how to use this machine.`",
+          "- 対比例: `I don't know why to say it.`(誤り。whyはこの形を取らない)"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.noun",
+      "title": "名詞の基本的な意味",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/noun.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "名詞は、生物や物体や事柄の名称を表す語である。",
+        "judgmentConditions": [
+          "人・動物などの生物を表しているか確認する。",
+          "物体を表しているか確認する。",
+          "事柄・考え・出来事などを表しているか確認する。"
+        ],
+        "examples": [
+          "- 生物: `student`, `bird`",
+          "- 物体: `book`, `chair`",
+          "- 事柄: `idea`, `change`"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.person",
+      "title": "人称",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/person.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "- 「私・私たち」を1人称という。\n- 「あなた・あなたたち」を2人称という。\n- 「私とあなた以外の人・もの・事柄」を3人称という。",
+        "judgmentConditions": [
+          "話し手自身を含むか確認する。",
+          "聞き手を指すか確認する。",
+          "それ以外の人・もの・事柄を指すか確認する。"
+        ],
+        "examples": [
+          "- 1人称: `I`, `we`",
+          "- 2人称: `you`",
+          "- 3人称: `he`, `they`, `the book`"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.predicate-verb",
+      "title": "述語動詞",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/predicate-verb.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "述語動詞は、動詞の働きだけをしている動詞である。",
+        "judgmentConditions": [
+          "文の中で、動詞の働きをしている語を確認する。",
+          "その語を、名詞や形容詞など別の品詞の働きとして扱っていないか確認する。"
+        ],
+        "examples": [
+          "- `Tom runs.`: `runs` が述語動詞。",
+          "- `Birds fly.`: `fly` が述語動詞。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.preposition-object",
+      "title": "前置詞の目的語",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/preposition-object.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "前置詞の目的語は、前置詞と結びついた名詞である。",
+        "judgmentConditions": [
+          "前置詞を見つける。",
+          "その前置詞と結びついている後ろの名詞を確認する。",
+          "「前置詞＋名詞」の語群全体と、前置詞の目的語である名詞を分ける。"
+        ],
+        "examples": [
+          "- `in the room`: `room` が前置詞 `in` の目的語。",
+          "- `with him`: `him` が前置詞 `with` と結びつく語。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.preposition",
+      "title": "前置詞の基本的な働き",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/preposition.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "前置詞は後ろに続く名詞と結びつく。「前置詞＋名詞」という語群は、形容詞または副詞の役割を果たす。",
+        "judgmentConditions": [
+          "前置詞の後ろに、結びつく名詞があるか確認する。",
+          "「前置詞＋名詞」の語群が、名詞を説明しているか、動詞などを説明しているか確認する。"
+        ],
+        "examples": [
+          "- `the book on the desk`: `on the desk` が `book` を説明する形容詞の役割。",
+          "- `He lives in Tokyo.`: `in Tokyo` が `lives` を説明する副詞の役割。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.sentence-definition",
+      "title": "英文の基本定義",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/sentence-definition.md",
+      "scope": "初学者向け・基本的な平叙文",
+      "summary": {
+        "principle": "英文は、大文字で始まり、ピリオドで終わる語群である。",
+        "judgmentConditions": [
+          "文頭が大文字で始まっているか確認する。",
+          "複数の語が一つのまとまりを作っているか確認する。",
+          "文末がピリオドで終わっているか確認する。"
+        ],
+        "examples": [
+          "- `The boy opened the door.`",
+          "- `She studies English.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.sentence-pattern-1",
+      "title": "第1文型の意味の目安",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/sentence-pattern-1.md",
+      "scope": "初学者向け・存在と移動",
+      "summary": {
+        "principle": "第1文型（SV）は、存在・移動と考えると意味が分かるものが多い。",
+        "judgmentConditions": [
+          "主語と述語動詞だけで文が成立しているか確認する。",
+          "述語動詞が存在や移動を表していると考えると、文の意味を捉えやすいか確認する。"
+        ],
+        "examples": [
+          "- `The baby sleeps.`: 主語と動詞で成立する。",
+          "- `The train arrived at noon.`: `at noon` が付いても、骨格はSVである。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.sentence-pattern-2",
+      "title": "第2文型の判断の目安",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/sentence-pattern-2.md",
+      "scope": "初学者向け・形容詞補語",
+      "summary": {
+        "principle": "動詞の後ろに形容詞（`-ing` 形・過去分詞形を含む）が続く形であれば、SVCになると予想できる。",
+        "judgmentConditions": [
+          "`SV＋形容詞` の形になっているか確認する。",
+          "`-ing` 形や過去分詞形が、動詞ではなく形容詞として主語を説明しているか確認する。"
+        ],
+        "examples": [
+          "- `The movie was exciting.`: `exciting` が主語 `The movie` を説明する形容詞補語。",
+          "- `She looked tired.`: `tired` が主語 `She` を説明する形容詞補語。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.sentence-pattern-4",
+      "title": "第4文型の意味の目安",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/sentence-pattern-4.md",
+      "scope": "初学者向け・giveの意味",
+      "summary": {
+        "principle": "第4文型（SVOO）は、`give`「与える」の意味をベースに考える。",
+        "judgmentConditions": [
+          "動詞の後ろに、前置詞なしで2つの名詞（または名詞相当語）が続くか確認する。",
+          "1つ目が受け手、2つ目が与えられるものとして読めるか確認する。"
+        ],
+        "examples": [
+          "- `I gave him a book.`: `him` は受け手、`a book` は与えられるもの。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.sentence-structure",
+      "title": "文の構造上の定義",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/sentence-structure.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "文は、構造上の主語と述語動詞という構成をもつ語群である。",
+        "judgmentConditions": [
+          "構造上の主語がどの語群か確認する。",
+          "述語動詞がどの語か確認する。",
+          "主語と述語動詞がそろって、一つの文の骨格を作っているか確認する。"
+        ],
+        "examples": [
+          "- `The boy runs.`: `The boy` が構造上の主語、`runs` が述語動詞。",
+          "- `She is kind.`: `She` が構造上の主語、`is` が述語動詞。",
+          "- `Open the door.`: 構造上は `You open the door.` と考える。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.structural-subject",
+      "title": "構造上の主語",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/structural-subject.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "構造上の主語は、述語動詞の主体となる名詞である。",
+        "judgmentConditions": [
+          "述語動詞を確認する。",
+          "その述語動詞の主体となる名詞を確認する。"
+        ],
+        "examples": [
+          "- `Tom runs.`: `Tom` が構造上の主語。",
+          "- `Birds fly.`: `Birds` が構造上の主語。",
+          "- `Open the door.`: 構造上は `You` が主語。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.svc-judgement",
+      "title": "SVCの判断",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/svc-judgement.md",
+      "scope": "初学者向け・形容詞と名詞による判断",
+      "summary": {
+        "principle": "次の目安で、SVCかどうかを判断する。\n\n1. `SV＋形容詞` → SVC。\n2. `SV＋名詞` の場合、`S＝名詞` が成り立てばSVC、`S≠名詞` ならSVO。",
+        "judgmentConditions": [
+          "動詞の後ろの語が形容詞か名詞か確認する。",
+          "名詞の場合、主語とその名詞がイコールになるか確認する。",
+          "前置詞の有無や目的語の関係も、補語のカードと照合する。"
+        ],
+        "examples": [
+          "- `The soup is hot.`: `hot` は形容詞で、SVC。",
+          "- `He became a teacher.`: `He = a teacher` が成り立つためSVC。",
+          "- `He met a teacher.`: `He ≠ a teacher` で、`a teacher` は目的語となるためSVO。"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.there-introductory",
+      "title": "誘導副詞 there",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/there-introductory.md",
+      "scope": "初学者向け・there構文",
+      "summary": {
+        "principle": "`there` には「そこに」という場所を表す副詞の用法のほかに、「誘導副詞」と呼ばれる用法がある。誘導副詞の `there` は、述語動詞を主語の前に置く形を導く働きをする。",
+        "judgmentConditions": [
+          "`there` が具体的な場所を指しているか確認する。",
+          "`There is/are ...` のように、`there` の後ろにbe動詞と名詞句が続いているか確認する。",
+          "場所の `there` と、there構文の `there` を区別する。"
+        ],
+        "examples": [
+          "- 場所: `The book is there.`",
+          "- there構文: `There is a book on the desk.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.sentence-structure.verb-object",
+      "title": "動詞の目的語",
+      "domain": "sentence-structure",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/sentence-structure/verb-object.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "動詞の目的語は、前置詞が付いていなくて、主語とイコールでなく、すでに出ている動詞の目的語ともイコールでない名詞である。",
+        "judgmentConditions": [
+          "名詞に前置詞が付いていないか確認する。",
+          "その名詞が主語とイコールになる説明関係ではないか確認する。",
+          "その名詞が、すでに出ている動詞の目的語とイコールになる説明関係ではないか確認する。",
+          "動詞が表す動作の対象になっているか確認する。"
+        ],
+        "examples": [
+          "- `I read a book.`: `a book` が `read` の目的語。",
+          "- `She gave me a book.`: `me` と `a book` は、動詞 `gave` に結びつく目的語。",
+          "- `She is a teacher.`: `a teacher` は主語 `She` とイコールになる補語で、目的語ではない。"
+        ]
+      }
+    },
+    {
+      "id": "egp.tense-aspect.adverb-clause-present-for-future",
+      "title": "時・条件を表す副詞節内の現在形",
+      "domain": "tense-aspect",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/tense-aspect/adverb-clause-present-for-future.md",
+      "scope": "初学者向け・時や条件を表す副詞節",
+      "summary": {
+        "principle": "時や条件を表す副詞節では、未来のことを表す場合でも現在形を使う。",
+        "judgmentConditions": [
+          "`when`、`before`、`after`、`until`、`as soon as`、`if` などが導く節が、時や条件を表す副詞節か確認する。",
+          "その節が未来の場面を表していても、節内の動詞を現在形にする。",
+          "主節の未来表現と、副詞節内の現在形を分けて確認する。"
+        ],
+        "examples": [
+          "- `When he comes, I will call you.`: `When he comes` は未来の時を表す副詞節だが、`comes` は現在形。",
+          "- `If it rains tomorrow, we will stay home.`: `If it rains tomorrow` は未来の条件を表す副詞節だが、`rains` は現在形。",
+          "- `I don't know when he will come.`: `when he will come` は名詞節なので、時を表す副詞節の現在形とは別に判断する。"
+        ]
+      }
+    },
+    {
+      "id": "egp.tense-aspect.perfect-reference-time",
+      "title": "完了形と基準時",
+      "domain": "tense-aspect",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/tense-aspect/perfect-reference-time.md",
+      "scope": "高校英文法・現在完了、過去完了、未来完了",
+      "summary": {
+        "principle": "完了形は、ある基準時より前に始まった出来事をその基準時との関係で捉える。基準時が現在なら現在完了、過去なら過去完了、未来なら未来完了を使う。",
+        "judgmentConditions": [
+          "基準時が現在・過去・未来のどこか、その時までの経験・継続・完了かを確認する。"
+        ],
+        "examples": [
+          "- `I have lived here for five years.`",
+          "- `The train had left before we arrived.`",
+          "- `I will have worked here for ten years by next March.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.tense-aspect.present-perfect-current-state",
+      "title": "現在完了が表す現在の状態",
+      "domain": "tense-aspect",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/tense-aspect/present-perfect-current-state.md",
+      "scope": "初学者向け・結果用法",
+      "summary": {
+        "principle": "現在完了は、「現在の状態を生み出す原因になった過去の動作・状態」を表現することによって、「現在の状態」を間接的に伝える。",
+        "judgmentConditions": [
+          "過去の動作・状態が、現在の状態につながっているか確認する。",
+          "過去の出来事そのものではなく、現在に残る結果・状態が焦点になっているか確認する。",
+          "現在とのつながりを示す文脈や状況があるか確認する。"
+        ],
+        "examples": [
+          "- `I have lost my key.`: 鍵をなくした結果、現在も鍵がない。",
+          "- `She has broken her arm.`: 腕を折った結果、現在もその状態が続いている。",
+          "- `The train has left.`: 列車が出発した結果、現在はもうその場所にいない。"
+        ]
+      }
+    },
+    {
+      "id": "egp.tense-aspect.present-perfect-progressive",
+      "title": "現在完了進行形が表す継続中の動作",
+      "domain": "tense-aspect",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/tense-aspect/present-perfect-progressive.md",
+      "scope": "高校英文法・単純現在完了の継続用法との違い",
+      "summary": {
+        "principle": "現在完了進行形(`have/has been + -ing`)は、過去のある時点で始まった動作が今も続いていることを、動作の継続そのものとして強調する。単純現在完了の継続用法が状態・事実としての継続を表すのに対し、現在完了進行形は「動作が今も進行中である」という活動性に焦点を当てる。",
+        "judgmentConditions": [
+          "動作(activity)が過去のある時点から始まり、現在も続いているか確認する。",
+          "出来事の完了・結果ではなく、動作そのものの継続・進行に焦点があるか確認する。",
+          "`since`(起点)や `for`(期間)とともに使われ、基準時である現在までのつながりを示しているか確認する。",
+          "`How long ...?` で継続期間を尋ねる文脈か確認する。"
+        ],
+        "examples": [
+          "- 正例: `She has been studying Japanese for three years, and she still takes lessons every week.`(3年間勉強してきた事実だけでなく、今も勉強を続けている動作に焦点がある)",
+          "- 正例: `He's been living in the village since 1995.`(1995年から今も住んでいる)",
+          "- 対比例: `I've written the Politics essay.`(完了した出来事) と `I've been writing the Politics essay.`(今も書いている途中の活動)"
+        ]
+      }
+    },
+    {
+      "id": "egp.tense-aspect.progressive-meanings",
+      "title": "進行形が表す意味",
+      "domain": "tense-aspect",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/tense-aspect/progressive-meanings.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "進行形は、文脈に応じて次の意味を表す。\n\n- 進行中の動作\n- 反復的な動作\n- 一時的な状態・状況\n- 近い未来の予定",
+        "judgmentConditions": [
+          "その動作が基準となる時点で進行中か確認する。",
+          "`always` などとともに、反復的な動作を表しているか確認する。",
+          "恒久的ではなく、一時的な状態・状況を表しているか確認する。",
+          "未来を表す時を示す語とともに、決まっている予定を表しているか確認する。"
+        ],
+        "examples": [
+          "- 進行中: `She is reading now.`",
+          "- 反復的動作: `He is always losing his keys.`",
+          "- 一時的状態・状況: `I am staying at a hotel this week.`",
+          "- 近い未来の予定: `We are leaving tomorrow.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.tense-aspect.sequence-of-tenses",
+      "title": "時制の一致",
+      "domain": "tense-aspect",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/tense-aspect/sequence-of-tenses.md",
+      "scope": "初学者向け・名詞節内の時制",
+      "summary": {
+        "principle": "時制の一致とは、主節の述語動詞が単純な過去形または過去完了形の場合に、後ろに続く名詞節内の述語動詞が単純な過去形または過去完了形になる現象である。",
+        "judgmentConditions": [
+          "主節の述語動詞が単純な過去形か過去完了形か確認する。",
+          "その後ろに名詞節が続いているか確認する。",
+          "名詞節内の述語動詞が単純な過去形か過去完了形になっているか確認する。"
+        ],
+        "examples": [
+          "- `He said that she was tired.`: 主節の `said` が単純な過去形で、名詞節内の `was` も単純な過去形。",
+          "- `He had said that she had left.`: 主節の `had said` が過去完了形で、名詞節内の `had left` も過去完了形。"
+        ]
+      }
+    },
+    {
+      "id": "egp.tense-aspect.simple-present",
+      "title": "一般的事実を表す現在形",
+      "domain": "tense-aspect",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/tense-aspect/simple-present.md",
+      "scope": "高校英文法・習慣、状態、一般的事実",
+      "summary": {
+        "principle": "習慣・恒常的な状態・一般的事実は、現在進行中の一回的な動作ではなく現在形で表す。",
+        "judgmentConditions": [
+          "反復する習慣か、広く成り立つ事実か、現在の一時的動作かを区別する。"
+        ],
+        "examples": [
+          "- `Water boils at 100 degrees Celsius.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.usage-collocation.adjective-preposition-different-from",
+      "title": "different の後ろの前置詞",
+      "domain": "usage-collocation",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/usage-collocation/adjective-preposition-different-from.md",
+      "scope": "高校英文法・different + from の形容詞と前置詞の結びつき",
+      "summary": {
+        "principle": "形容詞 `different` は、通常 `from` を伴って「〜と異なる」を表す。これは比較級の `than` を選ぶ問題ではなく、形容詞と前置詞の語法を確認する問題である。",
+        "judgmentConditions": [
+          "空所の前に形容詞 `different` があるか確認する。",
+          "「〜と異なる」という意味なら、まず `different from` のまとまりを思い出す。"
+        ],
+        "examples": [
+          "- `The climate here is different from that of my hometown.`",
+          "- `This design is different from the original one.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.usage-collocation.among-between",
+      "title": "amongとbetweenの使い分け(2者と3者以上)",
+      "domain": "usage-collocation",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/usage-collocation/among-between.md",
+      "scope": "高校英文法・分配や位置関係を表すamongとbetweenの基本区分",
+      "summary": {
+        "principle": "対象が明確に区別された2者であれば`between`を、3者以上の集団・グループの中であれば`among`を使う。",
+        "judgmentConditions": [
+          "対象がちょうど2つ(2人)で、それぞれを個別に区別しているか → `between`",
+          "対象が3つ(3人)以上で、集団・グループの中の関係として捉えているか → `among`"
+        ],
+        "examples": [
+          "- 正例: `The prize money will be divided equally among the three winners.`",
+          "- 正例: `The gate stood between the two towers.`",
+          "- 対比例: `... divided equally between the three winners.`(基礎段階では誤りとして扱う。3者以上はamong)"
+        ]
+      }
+    },
+    {
+      "id": "egp.usage-collocation.by-until",
+      "title": "期限のbyと継続の終点untilの使い分け",
+      "domain": "usage-collocation",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/usage-collocation/by-until.md",
+      "scope": "高校英文法・完了の期限を表すbyと、継続の終点を表すuntilの対比",
+      "summary": {
+        "principle": "`by`は「その時までに動作・状態が完了する期限」を表し、`until`は「その時までずっと動作・状態が継続する終点」を表す。",
+        "judgmentConditions": [
+          "文の動詞が、その時点までに完了する一回的な動作か(finish, submit, arriveなど) → `by`",
+          "文の動詞が、その時点まで続く継続的な動作・状態か(study, wait, stayなど) → `until`"
+        ],
+        "examples": [
+          "- 正例: `I have to finish this report by Friday.`(期限までに完了)",
+          "- 正例: `I will be studying in the library until 9 p.m. tonight.`(継続の終点)",
+          "- 対比例: `I have to finish this report until Friday.`(誤り。完了の期限にはbyを使う)",
+          "- 対比例: `I will be studying in the library by 9 p.m.`(誤り。継続にはuntilを使う)"
+        ]
+      }
+    },
+    {
+      "id": "egp.usage-collocation.contrast-cause-prepositions",
+      "title": "despite/because ofなど、対比・理由を表す前置詞",
+      "domain": "usage-collocation",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/usage-collocation/contrast-cause-prepositions.md",
+      "scope": "高校英文法・前置詞(+名詞/動名詞)と接続詞(+節)の使い分け",
+      "summary": {
+        "principle": "`despite/in spite of`(〜にもかかわらず)、`because of`(〜のせいで/おかげで)、`instead of`(〜の代わりに)はいずれも前置詞句で、後ろに名詞または動名詞(-ing)を置く。`despite`は`of`を伴わない(`despite of`は誤り)。これに対し、`because`は接続詞でありSVを伴う節を続ける点が`because of`と異なる。",
+        "judgmentConditions": [
+          "後ろに続くのが名詞・動名詞(前置詞)か、主語+動詞の節(接続詞because)かを確認する。",
+          "`despite`の直後に`of`が置かれていないかを確認する。"
+        ],
+        "examples": [
+          "- 正例: `Despite the rain, we went out.` / `He got the job in spite of his prison record.`",
+          "- 正例: `The game was canceled because of the storm.`",
+          "- 正例: `Because it was raining, the game was canceled.`(接続詞because+節)",
+          "- 対比例: `Despite of the rain, ...`(誤り。ofは不要)"
+        ]
+      }
+    },
+    {
+      "id": "egp.usage-collocation.gerund-idioms",
+      "title": "動名詞を使った慣用表現(used to/be used to/get used to、cannot help、worth)",
+      "domain": "usage-collocation",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/usage-collocation/gerund-idioms.md",
+      "scope": "高校英文法・used toの3形式、cannot help -ing、be worth -ing",
+      "summary": {
+        "principle": "`used to + 動詞の原形`は「以前は〜していた(今はしていない)」という過去の習慣・状態を表す。これに対し`be used to + 動名詞/名詞`は「〜に慣れている(状態)」、`get used to + 動名詞/名詞`は「〜に慣れる(変化・プロセス)」を表し、いずれも動名詞を伴う点で`used to`と形が異なる。`cannot help + 動名詞`は「〜せずにはいられない」(=`cannot help but + 動詞の原形`)、`be worth + 動名詞`は「〜する価値がある」を表す。",
+        "judgmentConditions": [
+          "過去の習慣(used to do)か、現在の慣れた状態(be used to -ing)か、慣れていく変化(get used to -ing)かを確認する。",
+          "動詞の原形が続くか、動名詞が続くかで`used to`と`be/get used to`を区別する。"
+        ],
+        "examples": [
+          "- 正例: `I used to get up early.`(以前は早起きしていた)",
+          "- 正例: `I am used to getting up early now.`(今は早起きに慣れている)",
+          "- 正例: `I am getting used to getting up early.`(早起きに慣れてきている)",
+          "- 正例: `I couldn't help laughing at the joke.`",
+          "- 正例: `This book is worth reading.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.usage-collocation.place-prepositions-at-in-on",
+      "title": "地点・内部空間・面を表す前置詞 at/in/on",
+      "domain": "usage-collocation",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/usage-collocation/place-prepositions-at-in-on.md",
+      "scope": "高校英文法・場所を表す前置詞 at/in/on の3区分",
+      "summary": {
+        "principle": "場所を表す前置詞は、対象を「点」「内部の空間」「面」のどれとして捉えるかで使い分ける。`at`は地点、`in`は建物の中や都市・国のような内部の空間、`on`は机の上や壁のような面(接触)に使う。",
+        "judgmentConditions": [
+          "対象を地図上の一点として捉えるか(例: at the bus stop, at the station) → `at`",
+          "対象を内部の空間として捉えるか(例: in the room, in Tokyo) → `in`",
+          "対象に面として接しているか(例: on the desk, on the wall) → `on`"
+        ],
+        "examples": [
+          "- 正例: `She was waiting for me at the bus stop.`",
+          "- 正例: `We arrived at the station just in time.`",
+          "- 対比例: `in the bus stop`(誤り。地点にはatを使う)"
+        ]
+      }
+    },
+    {
+      "id": "egp.usage-collocation.time-prepositions-at-on-in",
+      "title": "時刻・曜日/日付・月/年/季節を表す前置詞 at/on/in",
+      "domain": "usage-collocation",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/usage-collocation/time-prepositions-at-on-in.md",
+      "scope": "高校英文法・時を表す前置詞 at/on/in の3区分",
+      "summary": {
+        "principle": "時を表す前置詞は、対象となる時間の単位・長さで使い分ける。`at`は時刻のような一点、`on`は曜日・日付、`in`は月・年・季節のような長い期間に使う。",
+        "judgmentConditions": [
+          "対象が時刻のような一点か(例: 9 a.m., noon, midnight) → `at`",
+          "対象が曜日・日付・特定の一日か(例: Sunday, 25 December) → `on`",
+          "対象が月・年・季節・世紀のような長い期間か(例: August, 2026, summer) → `in`"
+        ],
+        "examples": [
+          "- 正例: `The meeting will start at 9 a.m.`",
+          "- 正例: `We are going to visit our grandparents on Sunday.`",
+          "- 正例: `The festival is usually held in August.`",
+          "- 対比例: `at Sunday`(誤り。曜日は`on`)/ `in 9 a.m.`(誤り。時刻は`at`)"
+        ]
+      }
+    },
+    {
+      "id": "egp.verbs.auxiliaries",
+      "title": "助動詞の4分類",
+      "domain": "verbs",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/verbs/auxiliaries.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "助動詞は、動詞の前に付いて、動詞の表現の幅を広げるものである。ここでは、助動詞を次の4つに分ける。\n\n1. `be` 助動詞: 過去分詞形または `-ing` 形の動詞に付ける。\n2. `have` 助動詞: 過去分詞形の動詞に付ける。\n3. `do` 助動詞: 動詞の原形に付ける。\n4. 一般助動詞: 動詞の原形に付ける。",
+        "judgmentConditions": [
+          "助動詞の後ろに置かれる動詞の形を確認する。",
+          "`be`、`have`、`do`、一般助動詞のどれに当たるか確認する。",
+          "助動詞と、単独で述語になるbe動詞・have・doを区別する。"
+        ],
+        "examples": [
+          "- `is running`: `be` 助動詞 + `-ing` 形。",
+          "- `was broken`: `be` 助動詞 + 過去分詞。",
+          "- `has finished`: `have` 助動詞 + 過去分詞。",
+          "- `does work`: `do` 助動詞 + 原形。",
+          "- `can swim`: 一般助動詞 + 原形。"
+        ]
+      }
+    },
+    {
+      "id": "egp.verbs.be-auxiliary-functions",
+      "title": "be助動詞の働き",
+      "domain": "verbs",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/verbs/be-auxiliary-functions.md",
+      "scope": "初学者向け・受動態と進行形",
+      "summary": {
+        "principle": "be助動詞は、後ろに続く動詞の形によって次の表現を作る。\n\n- 後ろに過去分詞形の動詞が来ると、受身を表す。\n- 後ろに `-ing` 形の動詞が来ると、進行形を表す。",
+        "judgmentConditions": [
+          "be助動詞の後ろに続く動詞の形を確認する。",
+          "過去分詞形なら受身、`-ing` 形なら進行形として確認する。"
+        ],
+        "examples": [
+          "- 受身: `The window was broken.` — `was` + 過去分詞 `broken`。",
+          "- 進行形: `She is running.` — `is` + `-ing` 形 `running`。"
+        ]
+      }
+    },
+    {
+      "id": "egp.verbs.be-verb-functions",
+      "title": "be動詞の働き",
+      "domain": "verbs",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/verbs/be-verb-functions.md",
+      "scope": "初学者向け・第1文型と第2文型",
+      "summary": {
+        "principle": "be動詞は、文型によって次の意味を表す。\n\n- 第1文型では、「存在する、ある、いる」を表す。\n- 第2文型では、「～である」を表す。",
+        "judgmentConditions": [
+          "be動詞が第1文型で使われているか、第2文型で使われているか確認する。",
+          "第1文型なら「存在する、ある、いる」、第2文型なら「～である」として意味を確認する。"
+        ],
+        "examples": [
+          "- 第1文型: `A book is on the desk.` — 「本が机の上にある」。",
+          "- 第2文型: `She is kind.` — 「彼女は親切である」。"
+        ]
+      }
+    },
+    {
+      "id": "egp.verbs.imperatives",
+      "title": "命令文の作り方",
+      "domain": "verbs",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/verbs/imperatives.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "1. 構造上の主語を `You` にして、述語動詞を原形にする。\n2. 構造上の主語の `You` を省略する。\n3. 否定命令文は `Don't + 原形` または `Never + 原形` にする。",
+        "judgmentConditions": [
+          "命令・依頼・指示を表す文か確認する。",
+          "構造上の主語が `You` であると考える。",
+          "`You` を表面上は省略し、動詞を原形にする。",
+          "否定命令文では、`Don't` または `Never` の後ろに原形を置く。"
+        ],
+        "examples": [
+          "- 肯定命令: `Open the door.`（構造上は `You open the door.`）",
+          "- 否定命令: `Don't open the door.`",
+          "- 強い否定命令: `Never open that door.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.verbs.intransitive-heuristic",
+      "title": "自動詞の判断の目安",
+      "domain": "verbs",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/verbs/intransitive-heuristic.md",
+      "scope": "初学者向け・「何を？」による判断の目安",
+      "summary": {
+        "principle": "自動詞は、「何を？」と聞くのが変で、「あっそう」で終わってよい動詞として見分けることができる。",
+        "judgmentConditions": [
+          "動作の対象を「何を？」と尋ねる必要があるか考える。",
+          "対象を尋ねなくても文が成り立つ場合は、自動詞の可能性を考える。"
+        ],
+        "examples": [
+          "- `The baby slept.`: 「何を寝たの？」と聞くのが不自然で、文がそこで終わる。"
+        ]
+      }
+    },
+    {
+      "id": "egp.verbs.intransitive",
+      "title": "自動詞",
+      "domain": "verbs",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/verbs/intransitive.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "自動詞は、動詞の目的語が付かない動詞である。",
+        "judgmentConditions": [
+          "動詞の後ろに、前置詞なしで動作の対象となる名詞があるか確認する。",
+          "そのような名詞がなければ、自動詞として扱う。"
+        ],
+        "examples": [
+          "- `The baby slept.`",
+          "- `He arrived at the station.`: `at the station` は前置詞句で、`station` は動詞の直接の目的語ではない。"
+        ]
+      }
+    },
+    {
+      "id": "egp.verbs.transitive-heuristic",
+      "title": "他動詞の判断の目安",
+      "domain": "verbs",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/verbs/transitive-heuristic.md",
+      "scope": "初学者向け・「何を？」による判断の目安",
+      "summary": {
+        "principle": "他動詞は、「何を？」と聞き返すことができる動詞として見分けることができる。",
+        "judgmentConditions": [
+          "動作の対象を「何を？」と尋ねると、前置詞なしの名詞で答えられるか確認する。"
+        ],
+        "examples": [
+          "- `She opened the window.`: 「何を開けたの？」に `the window` と答えられる。"
+        ]
+      }
+    },
+    {
+      "id": "egp.verbs.transitive",
+      "title": "他動詞",
+      "domain": "verbs",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/verbs/transitive.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "他動詞は、動詞の目的語が付く動詞である。",
+        "judgmentConditions": [
+          "動詞の後ろに、前置詞なしで動作の対象となる名詞があるか確認する。",
+          "その名詞が主語とイコールになる補語ではないか確認する。"
+        ],
+        "examples": [
+          "- `I read a book.`: `read` は目的語 `a book` が付く他動詞。",
+          "- `She opened the door.`: `opened` は目的語 `the door` が付く他動詞。"
+        ]
+      }
+    },
+    {
+      "id": "egp.verbs.verb",
+      "title": "動詞の基本的な意味",
+      "domain": "verbs",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/verbs/verb.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "動詞は、生物の行動、物体の動き、事柄の変化を表す語である。",
+        "judgmentConditions": [
+          "生物が何をするかを表しているか確認する。",
+          "物体がどう動くかを表しているか確認する。",
+          "状態や事柄がどう変化するかを表しているか確認する。"
+        ],
+        "examples": [
+          "- 生物の行動: `run`, `write`",
+          "- 物体の動き: `fall`, `move`",
+          "- 事柄の変化: `change`, `become`"
+        ]
+      }
+    },
+    {
+      "id": "egp.voice.passive-extended",
+      "title": "受動態の拡張形",
+      "domain": "voice",
+      "status": "active",
+      "verification": "source-checked",
+      "path": "principles/voice/passive-extended.md",
+      "scope": "高校英文法・二重目的語、句動詞、知覚動詞",
+      "summary": {
+        "principle": "基本の`be + 過去分詞`を保ちながら、二重目的語では焦点となる目的語を主語にし、句動詞では前置詞・副詞を残す。知覚動詞の原形不定詞は受動態で`to`を伴う。",
+        "judgmentConditions": [
+          "能動態の目的語、動詞句のまとまり、目的格補語の形を確認する。"
+        ],
+        "examples": [
+          "- `I was given this watch.`",
+          "- `The child was looked after.`",
+          "- `He was seen to enter the room.`"
+        ]
+      }
+    },
+    {
+      "id": "egp.voice.passive-formation",
+      "title": "受動態の文の作り方",
+      "domain": "voice",
+      "status": "active",
+      "verification": "user-principle",
+      "path": "principles/voice/passive-formation.md",
+      "scope": "初学者向け基本説明",
+      "summary": {
+        "principle": "受動態は、能動態の文を次のように変換して作る。\n\n1. 能動態の文の「動詞の目的語」を主語にする。\n2. 能動態の文の述語動詞を過去分詞形にして、その前に `be` 助動詞を付ける。\n3. 能動態の文の主語は、`by + 名詞` という副詞句にして文末に置く。",
+        "judgmentConditions": [
+          "能動態の主語・述語動詞・動詞の目的語を確認する。",
+          "能動態の目的語を受動態の主語に移す。",
+          "元の述語動詞を過去分詞形にし、時制に合う `be` 助動詞を前に置く。",
+          "元の主語を `by + 名詞` の副詞句にして、文末に置く。"
+        ],
+        "examples": [
+          "- 能動態: `The boy broke the window.`",
+          "- 目的語を主語にする: `The window ...`",
+          "- `be` 助動詞 + 過去分詞: `The window was broken ...`",
+          "- 主語を `by` 句にする: `The window was broken by the boy.`"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "egp.nonfinite.absolute-participial-idioms",
+      "target": "egp.nonfinite.participial-construction-formation",
+      "type": "contrasts-with",
+      "status": "proposed",
+      "reason": "主節の主語との一致を通常求める分詞構文と、慣用的な例外句を区別するため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.bare-infinitive",
+      "target": "egp.nonfinite.nonfinite-verbs",
+      "type": "subtype-of",
+      "status": "approved",
+      "reason": "原形不定詞を準動詞に含まれる具体的な下位概念として扱うため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.be-to-infinitive",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "be + to + 原形という形を判断する前提になるため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.be-to-infinitive",
+      "target": "egp.nonfinite.to-infinitive-or-preposition",
+      "type": "prerequisite",
+      "status": "approved",
+      "reason": "be to不定詞のtoが不定詞か前置詞か確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.degree-result-infinitive-patterns",
+      "target": "egp.nonfinite.result-infinitive",
+      "type": "contrasts-with",
+      "status": "approved",
+      "reason": "程度による結果と、主節の後に実際に起きた結果を区別するため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.degree-result-infinitive-patterns",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "too/enough/so ... to のto不定詞の形を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.gerund-subject",
+      "target": "egp.nonfinite.nonfinite-verbs",
+      "type": "subtype-of",
+      "status": "approved",
+      "reason": "動名詞の意味上の主語を準動詞に含まれる具体的な判断として扱うため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.infinitive-adjectival-use",
+      "target": "egp.nonfinite.infinitive-purpose",
+      "type": "confusable-with",
+      "status": "proposed",
+      "reason": "名詞修飾と主節の目的を取り違えやすいため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.infinitive-adjectival-use",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "形容詞的用法の構成要素であるto + 原形を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.infinitive-form",
+      "target": "egp.nonfinite.nonfinite-verbs",
+      "type": "subtype-of",
+      "status": "approved",
+      "reason": "不定詞を準動詞に含まれる下位概念として扱うため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.infinitive-negation",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "not + to + 原形という形を判断する前提になるため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.infinitive-purpose",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "目的を表すto不定詞の形を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.infinitive-semantic-subject",
+      "target": "egp.nonfinite.gerund-subject",
+      "type": "contrasts-with",
+      "status": "approved",
+      "reason": "不定詞と動名詞で意味上の主語の示し方を区別するため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.infinitive-semantic-subject",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "for 人 to ~ のto不定詞の形を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.infinitive-semantic-subject",
+      "target": "egp.nonfinite.verb-object-to-infinitive",
+      "type": "used-by",
+      "status": "proposed",
+      "reason": "目的語がto不定詞の意味上の主語を兼ねる型を説明するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.infinitive-semantic-subject-of",
+      "target": "egp.nonfinite.infinitive-semantic-subject",
+      "type": "contrasts-with",
+      "status": "approved",
+      "reason": "for 人 to ~ と of 人 + to do の判断を区別するため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.initial-to-infinitive-use",
+      "target": "egp.nonfinite.infinitive-purpose",
+      "type": "confusable-with",
+      "status": "proposed",
+      "reason": "文頭の副詞的用法と目的用法を狭く同一視しやすいため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.initial-to-infinitive-use",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "文頭のtoの用法を考える前に形を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.participial-construction-formation",
+      "target": "egp.nonfinite.participles-as-adjectives",
+      "type": "confusable-with",
+      "status": "proposed",
+      "reason": "分詞構文と名詞修飾の分詞を区別するため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.participial-construction-formation",
+      "target": "egp.nonfinite.nonfinite-verbs",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "分詞構文を準動詞の具体的な構文として位置づけるため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.participial-construction-meaning",
+      "target": "egp.nonfinite.participial-construction-formation",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "位置による意味を判断する前に分詞構文の構造を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.participial-construction-negation",
+      "target": "egp.nonfinite.infinitive-negation",
+      "type": "contrasts-with",
+      "status": "proposed",
+      "reason": "不定詞と分詞構文で否定語の位置が異なることを比較するため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.participial-construction-negation",
+      "target": "egp.nonfinite.participial-construction-formation",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "not + 分詞という形を判断する前に分詞構文の構造を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.participial-construction-tense",
+      "target": "egp.nonfinite.perfect-infinitive",
+      "type": "confusable-with",
+      "status": "proposed",
+      "reason": "having + p.p. と to have + p.p. の形と時間関係を混同しやすいため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.participial-construction-tense",
+      "target": "egp.nonfinite.participial-construction-formation",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "-ing / having + p.p. の形を判断する前に分詞構文の構造を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.participles-as-adjectives",
+      "target": "egp.nonfinite.nonfinite-verbs",
+      "type": "subtype-of",
+      "status": "proposed",
+      "reason": "分詞を準動詞に含まれる具体的な下位概念として扱うため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.participles-as-adjectives",
+      "target": "egp.nonfinite.result-infinitive",
+      "type": "used-by",
+      "status": "approved",
+      "reason": "結果不定詞内のfind後に置かれる分詞の関係を判断するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.perfect-infinitive",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "to have p.p. の不定詞の形を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.result-infinitive",
+      "target": "egp.nonfinite.infinitive-purpose",
+      "type": "contrasts-with",
+      "status": "approved",
+      "reason": "主節の後に起きた結果と、主節の動作の目的を区別するため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.result-infinitive",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "結果を表すto不定詞の形を確認するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.suggest-complements",
+      "target": "egp.nonfinite.verb-complement-ing-or-infinitive",
+      "type": "confusable-with",
+      "status": "proposed",
+      "reason": "動名詞を取る場合があるsuggestと、動詞ごとの補文形式を混同しやすいため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.to-infinitive-or-preposition",
+      "target": "egp.nonfinite.infinitive-form",
+      "type": "confusable-with",
+      "status": "proposed",
+      "reason": "to + 原形と前置詞to + 名詞相当語を区別するため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.to-infinitive-or-preposition",
+      "target": "egp.sentence-structure.preposition-object",
+      "type": "prerequisite",
+      "status": "approved",
+      "reason": "前置詞toの目的語を判断するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.verb-complement-ing-or-infinitive",
+      "target": "egp.nonfinite.nonfinite-verbs",
+      "type": "prerequisite",
+      "status": "proposed",
+      "reason": "動名詞と不定詞を準動詞の補文として比較するため",
+      "directed": true
+    },
+    {
+      "source": "egp.nonfinite.verb-object-to-infinitive",
+      "target": "egp.nonfinite.suggest-complements",
+      "type": "confusable-with",
+      "status": "approved",
+      "reason": "suggestをadvise/want/tell/askと同じ型にしやすいため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.verb-object-to-infinitive",
+      "target": "egp.nonfinite.bare-infinitive",
+      "type": "contrasts-with",
+      "status": "approved",
+      "reason": "toを取る型と原形不定詞を取る型を区別するため",
+      "directed": false
+    },
+    {
+      "source": "egp.nonfinite.verb-object-to-infinitive",
+      "target": "egp.reported-speech.imperative-to-infinitive",
+      "type": "used-by",
+      "status": "approved",
+      "reason": "tell/ask + 人 + to不定詞が命令文の話法で使われるため",
+      "directed": true
+    }
+  ]
+}
